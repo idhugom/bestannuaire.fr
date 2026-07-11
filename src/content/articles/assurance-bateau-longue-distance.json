@@ -13,10 +13,10 @@
   ],
   "chapo": "Une traversée au large expose le bateau, l’équipage et le budget à des risques que les contrats de plaisance courants ne couvrent pas toujours. Zones autorisées, saison, assistance, avaries et franchise : voici la méthode pour lire une police, négocier un avenant et partir avec une protection adaptée.",
   "metaDescription": "Assurance bateau longue distance : garanties, exclusions, zones de navigation et conseils pour assurer une grande traversée sans mauvaise surprise en mer.",
-  "heroImage": null,
-  "heroImageSm": null,
+  "heroImage": "/img/heroes/assurance-bateau-longue-distance.webp",
+  "heroImageSm": "/img/heroes/assurance-bateau-longue-distance-sm.webp",
   "heroAlt": "Assurance bateau navigation longue distance : quelles garanties pour les grandes traversées ?",
-  "heroGenerated": false,
+  "heroGenerated": true,
   "readingTime": 12,
   "keyTakeaways": [
     "La zone de navigation inscrite au contrat prime sur la destination envisagée : une couverture « tous risques » n’est pas forcément mondiale.",

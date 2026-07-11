@@ -13,10 +13,10 @@
   ],
   "chapo": "Résilier une assurance responsabilité civile suppose d’abord de savoir où elle est logée : contrat habitation, assurance scolaire, auto ou police distincte. La loi Chatel facilite la sortie à l’échéance lorsque l’assureur informe mal ou tardivement, mais elle ne remplace pas toutes les autres règles de résiliation.",
   "metaDescription": "Loi Chatel et assurance responsabilité civile : délais, lettre de résiliation, remboursement et règles si votre RC est incluse dans l’habitation.",
-  "heroImage": null,
-  "heroImageSm": null,
+  "heroImage": "/img/heroes/loi-chatel-resiliation-assurance.webp",
+  "heroImageSm": "/img/heroes/loi-chatel-resiliation-assurance-sm.webp",
   "heroAlt": "Loi Chatel résiliation assurance responsabilité civile : comment mettre fin à son assurance RC ?",
-  "heroGenerated": false,
+  "heroGenerated": true,
   "readingTime": 12,
   "keyTakeaways": [
     "La loi Chatel concerne les contrats reconduits tacitement souscrits à titre privé, pas l’assurance responsabilité civile professionnelle.",

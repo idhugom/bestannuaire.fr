@@ -14,10 +14,10 @@
   ],
   "chapo": "Un magret réussi joue sur les contrastes : une peau fine et croustillante, une chair encore moelleuse, puis un glaçage sucré-épicé posé au dernier moment. Voici une méthode précise pour maîtriser la fonte de la graisse, éviter que le miel ne brûle et composer une assiette équilibrée.",
   "metaDescription": "Magret de canard rôti au miel et épices : la méthode pour choisir, cuire, glacer et servir une viande rosée, juteuse et bien parfumée sans brûler le miel.",
-  "heroImage": null,
-  "heroImageSm": null,
+  "heroImage": "/img/heroes/magret-canard-roti-miel.webp",
+  "heroImageSm": "/img/heroes/magret-canard-roti-miel-sm.webp",
   "heroAlt": "Magret de canard rôti au miel et épices : une cuisson parfumée",
-  "heroGenerated": false,
+  "heroGenerated": true,
   "readingTime": 9,
   "keyTakeaways": [
     "Quadrillez uniquement la couche de gras : la lame ne doit pas entamer la chair.",

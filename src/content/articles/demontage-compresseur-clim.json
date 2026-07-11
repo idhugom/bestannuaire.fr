@@ -14,10 +14,10 @@
   ],
   "chapo": "Un compresseur de climatisation défaillant ne se remplace pas à l’aveugle. Entre diagnostic électrique, risque de contamination du circuit et réglementation sur les fluides frigorigènes, le démontage exige une méthode stricte. Voici ce que vous pouvez préparer, contrôler et confier impérativement à un professionnel qualifié.",
   "metaDescription": "Démontage d’un compresseur de climatisation auto : diagnostic, règles légales, étapes sûres et contrôles avant remontage, sans fuite de fluide.",
-  "heroImage": null,
-  "heroImageSm": null,
+  "heroImage": "/img/heroes/demontage-compresseur-clim.webp",
+  "heroImageSm": "/img/heroes/demontage-compresseur-clim-sm.webp",
   "heroAlt": "Démontage d’un compresseur de climatisation : étapes essentielles",
-  "heroGenerated": false,
+  "heroGenerated": true,
   "readingTime": 13,
   "keyTakeaways": [
     "Ne desserrez jamais une canalisation de climatisation tant que le fluide réfrigérant n’a pas été récupéré par un professionnel habilité.",

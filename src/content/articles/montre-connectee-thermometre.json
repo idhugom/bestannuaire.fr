@@ -13,10 +13,10 @@
   ],
   "chapo": "Une montre équipée d’un capteur thermique ne remplace pas un thermomètre médical : elle suit surtout la température de la peau et ses variations. Bien choisie et correctement portée, elle peut aider à repérer un écart inhabituel, à contextualiser votre récupération ou votre cycle, sans jamais poser de diagnostic.",
   "metaDescription": "Montre connectée avec thermomètre : comprendre la température cutanée, ses limites, les critères de choix et les réflexes utiles en cas d’alerte santé.",
-  "heroImage": null,
-  "heroImageSm": null,
+  "heroImage": "/img/heroes/montre-connectee-thermometre.webp",
+  "heroImageSm": "/img/heroes/montre-connectee-thermometre-sm.webp",
   "heroAlt": "Montre connectée avec thermomètre : surveillez votre température corporelle en temps réel",
-  "heroGenerated": false,
+  "heroGenerated": true,
   "readingTime": 10,
   "keyTakeaways": [
     "Une montre mesure généralement la température cutanée du poignet, pas la température interne du corps.",

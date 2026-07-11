@@ -14,10 +14,10 @@
   ],
   "chapo": "Un resort haut de gamme peut offrir bien plus qu’un hébergement : il simplifie l’organisation et crée les conditions d’un vrai temps à deux. Destination, formule, intimité, météo, prestations incluses et garanties contractuelles : voici comment composer une lune de miel à votre mesure, sans mauvaises surprises.",
   "metaDescription": "Séjour de noces dans un resort de luxe : comparez destinations, services, budget et garanties pour organiser une lune de miel sereine et unique.",
-  "heroImage": null,
-  "heroImageSm": null,
+  "heroImage": "/img/heroes/sejour-noces-resort-luxe.webp",
+  "heroImageSm": "/img/heroes/sejour-noces-resort-luxe-sm.webp",
   "heroAlt": "Séjour de noces dans un resort de luxe : des moments de détente dans un cadre d’exception",
-  "heroGenerated": false,
+  "heroGenerated": true,
   "readingTime": 12,
   "keyTakeaways": [
     "Le bon resort est celui dont le rythme, l’emplacement et les prestations correspondent à votre couple, pas seulement à son nombre d’étoiles.",

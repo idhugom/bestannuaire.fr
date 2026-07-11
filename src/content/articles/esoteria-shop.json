@@ -14,10 +14,10 @@
   ],
   "chapo": "Les objets dédiés à la méditation, aux tirages ou aux rituels attirent autant par leur symbolique que par leur esthétique. Avant de commander, mieux vaut distinguer l’usage personnel des promesses invérifiables et vérifier la composition, l’origine, la sécurité ainsi que les conditions de vente.",
   "metaDescription": "Esoteria Shop : repères pour choisir des objets ésotériques en ligne, vérifier leur qualité, éviter les promesses trompeuses et acheter en sécurité sans piège.",
-  "heroImage": null,
-  "heroImageSm": null,
+  "heroImage": "/img/heroes/esoteria-shop.webp",
+  "heroImageSm": "/img/heroes/esoteria-shop-sm.webp",
   "heroAlt": "Esoteria Shop",
-  "heroGenerated": false,
+  "heroGenerated": true,
   "readingTime": 10,
   "keyTakeaways": [
     "Un objet ésotérique peut soutenir un rituel personnel, mais ne garantit aucun résultat ni changement mesurable.",

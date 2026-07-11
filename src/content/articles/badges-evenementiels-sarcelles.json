@@ -14,10 +14,10 @@
   ],
   "chapo": "Un badge réussi ne se limite pas à un nom imprimé : il règle le rythme des arrivées, facilite les rencontres et peut soutenir le contrôle des accès. Pour un événement à Sarcelles, le bon dispositif se choisit à partir des flux, des données collectées, du lieu et du niveau de sécurité attendu.",
   "metaDescription": "Impression de badges événementiels à Sarcelles : formats, sécurité, RGPD et méthode pour un accueil fluide, professionnel et réussi pour vos événements.",
-  "heroImage": null,
-  "heroImageSm": null,
+  "heroImage": "/img/heroes/badges-evenementiels-sarcelles.webp",
+  "heroImageSm": "/img/heroes/badges-evenementiels-sarcelles-sm.webp",
   "heroAlt": "Impression badges événementiels Sarcelles : identifiez vos participants avec un badge imprimé",
-  "heroGenerated": false,
+  "heroGenerated": true,
   "readingTime": 13,
   "keyTakeaways": [
     "Le format du badge doit correspondre à la durée, aux flux et au niveau de contrôle de l’événement.",

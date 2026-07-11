@@ -13,10 +13,10 @@
   ],
   "chapo": "Les bobines de cinéma familiales sont fragiles, parfois uniques, et leur lecture devient difficile. Les numériser permet de les revoir et de les transmettre, à condition de choisir une méthode respectueuse du film, un niveau de qualité cohérent et une vraie stratégie de sauvegarde.",
   "metaDescription": "Numérisation de films : formats, qualité HD ou 4K, coûts, sauvegarde et critères pour confier vos bobines familiales à un laboratoire fiable, en confiance.",
-  "heroImage": null,
-  "heroImageSm": null,
+  "heroImage": "/img/heroes/meemoria-votre-labo-expert-en-numerisation.webp",
+  "heroImageSm": "/img/heroes/meemoria-votre-labo-expert-en-numerisation-sm.webp",
   "heroAlt": "Meemoria, votre labo expert en numérisation",
-  "heroGenerated": false,
+  "heroGenerated": true,
   "readingTime": 11,
   "keyTakeaways": [
     "Un scan image par image est généralement plus fidèle qu’une captation d’une projection.",

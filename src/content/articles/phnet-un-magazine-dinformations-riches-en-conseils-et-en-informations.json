@@ -13,10 +13,10 @@
   ],
   "chapo": "Lorsqu’un magazine traite à la fois de santé, de consommation et de mode de vie, la promesse de conseils doit être confrontée à une méthode fiable. Pour le tabac et le vapotage en particulier, voici comment lire, vérifier et utiliser une information sans confondre prévention, expérience personnelle et discours commercial.",
   "metaDescription": "PHNET : comment distinguer information, conseils et publicité sur le tabac et la vape, pour adopter des réflexes vraiment utiles à votre santé au quotidien.",
-  "heroImage": null,
-  "heroImageSm": null,
+  "heroImage": "/img/heroes/phnet-un-magazine-dinformations-riches-en-conseils-et-en-informations.webp",
+  "heroImageSm": "/img/heroes/phnet-un-magazine-dinformations-riches-en-conseils-et-en-informations-sm.webp",
   "heroAlt": "PHNET, un magazine d’informations riches en conseils et en informations",
-  "heroGenerated": false,
+  "heroGenerated": true,
   "readingTime": 11,
   "keyTakeaways": [
     "La cigarette électronique n’est pas sans risque, mais l’absence de combustion la distingue fondamentalement de la cigarette de tabac.",

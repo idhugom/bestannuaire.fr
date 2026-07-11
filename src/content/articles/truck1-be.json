@@ -13,10 +13,10 @@
   ],
   "chapo": "Acheter un poids lourd, un utilitaire ou une machine de chantier d’occasion sur une place de marché spécialisée peut élargir fortement le choix. Mais une annonce attractive ne remplace ni l’inspection du matériel, ni la vérification du vendeur, ni le calcul du coût réel rendu sur votre site.",
   "metaDescription": "Truck1.be : méthode complète pour comparer camions et engins d’occasion, vérifier un vendeur, négocier et sécuriser un achat en Belgique ou à l’étranger.",
-  "heroImage": null,
-  "heroImageSm": null,
+  "heroImage": "/img/heroes/truck1-be.webp",
+  "heroImageSm": "/img/heroes/truck1-be-sm.webp",
   "heroAlt": "Truck1.be",
-  "heroGenerated": false,
+  "heroGenerated": true,
   "readingTime": 12,
   "keyTakeaways": [
     "Une plateforme d’annonces met en relation : le contrat et les garanties dépendent avant tout du vendeur.",

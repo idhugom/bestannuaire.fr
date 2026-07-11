@@ -14,10 +14,10 @@
   ],
   "chapo": "Pour évacuer des déblais, gravats ou matériaux en grande quantité, la taille de la benne ne fait pas tout. Charge utile, accès au chantier, nature des déchets, rotations et responsabilités réglementaires doivent être vérifiés avant toute location. Voici une méthode concrète pour choisir et exploiter le bon véhicule.",
   "metaDescription": "Location de camion benne grande capacité : volume, charge utile, permis, déchets, coûts et sécurité pour réussir un chantier à fort volume en toute conformité.",
-  "heroImage": null,
-  "heroImageSm": null,
+  "heroImage": "/img/heroes/camion-benne-capacite-chantiers.webp",
+  "heroImageSm": "/img/heroes/camion-benne-capacite-chantiers-sm.webp",
   "heroAlt": "Location camion benne grande capacité : adaptée aux chantiers à fort volume",
-  "heroGenerated": false,
+  "heroGenerated": true,
   "readingTime": 13,
   "keyTakeaways": [
     "Le volume de benne doit toujours être confronté à la masse réelle des matériaux à transporter.",

@@ -14,10 +14,10 @@
   ],
   "chapo": "Acheter, louer ou investir à Montpellier suppose de regarder bien au-delà d’une annonce et de son prix affiché. Quartier, transports, charges de copropriété, risques naturels, réglementation locative et état réel du logement : voici une méthode concrète pour comparer les biens et prendre une décision éclairée.",
   "metaDescription": "Immobilier à Montpellier : quartiers, achat, location, risques et encadrement des loyers pour comparer les biens et sécuriser votre projet en toute confiance",
-  "heroImage": null,
-  "heroImageSm": null,
+  "heroImage": "/img/heroes/immobilier-montpellier-com.webp",
+  "heroImageSm": "/img/heroes/immobilier-montpellier-com-sm.webp",
   "heroAlt": "Immobilier-montpellier.com",
-  "heroGenerated": false,
+  "heroGenerated": true,
   "readingTime": 12,
   "keyTakeaways": [
     "À Montpellier, la valeur d’un bien se joue souvent à l’échelle de la rue : transports, nuisances, copropriété et risque d’inondation sont décisifs.",

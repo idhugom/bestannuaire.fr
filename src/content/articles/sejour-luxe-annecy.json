@@ -14,10 +14,10 @@
   ],
   "chapo": "À Annecy, le secteur couramment appelé Triangle d’Or séduit par sa proximité avec le lac, les jardins et le centre historique. Mais un hébergement réellement haut de gamme ne se résume pas à une belle adresse : services, calme, vue, accessibilité et conditions de réservation doivent être examinés avant de réserver.",
   "metaDescription": "Séjour de luxe à Annecy : repérez le Triangle d’Or, comparez hôtel et location, anticipez le budget et réservez sans mauvaise surprise dès l’arrivée.",
-  "heroImage": null,
-  "heroImageSm": null,
+  "heroImage": "/img/heroes/sejour-luxe-annecy.webp",
+  "heroImageSm": "/img/heroes/sejour-luxe-annecy-sm.webp",
   "heroAlt": "Séjour de luxe Triangle d’Or Annecy : un hébergement haut de gamme au cœur de la ville",
-  "heroGenerated": false,
+  "heroGenerated": true,
   "readingTime": 12,
   "keyTakeaways": [
     "Le « Triangle d’Or » est une appellation d’usage : vérifiez toujours l’adresse exacte et les temps de marche annoncés.",

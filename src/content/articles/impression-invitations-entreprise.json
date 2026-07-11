@@ -13,10 +13,10 @@
   ],
   "chapo": "Un carton d’invitation ne se résume pas à une date et une adresse : il donne le ton d’un rendez-vous professionnel avant même l’arrivée des invités. Format, papier, finitions, informations pratiques et préparation du fichier : voici comment concevoir un support cohérent, lisible et maîtrisé.",
   "metaDescription": "Impression cartons invitation entreprise : formats, papiers, finitions, délais et conseils pour une invitation professionnelle vraiment mémorable et utile.",
-  "heroImage": null,
-  "heroImageSm": null,
+  "heroImage": "/img/heroes/impression-invitations-entreprise.webp",
+  "heroImageSm": "/img/heroes/impression-invitations-entreprise-sm.webp",
   "heroAlt": "Impression cartons invitation entreprise : soignez l’image de vos événements professionnels",
-  "heroGenerated": false,
+  "heroGenerated": true,
   "readingTime": 12,
   "keyTakeaways": [
     "Le support doit être choisi selon l’objectif de l’événement, le profil des invités et le mode de remise.",

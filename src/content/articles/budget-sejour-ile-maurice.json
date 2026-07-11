@@ -14,10 +14,10 @@
   ],
   "chapo": "Entre le billet long-courrier, l’hébergement et les excursions, l’île Maurice peut s’adapter à des budgets très différents. La période du voyage, le niveau de confort et la formule de restauration font l’essentiel de l’écart. Voici des repères concrets pour chiffrer un séjour sans sous-estimer les dépenses sur place.",
   "metaDescription": "Prix d’un séjour à l’île Maurice : vols, hôtels, repas, transports et activités. Nos repères pour bâtir un budget réaliste selon la saison et confort souhaité.",
-  "heroImage": null,
-  "heroImageSm": null,
+  "heroImage": "/img/heroes/budget-sejour-ile-maurice.webp",
+  "heroImageSm": "/img/heroes/budget-sejour-ile-maurice-sm.webp",
   "heroAlt": "Prix d’un séjour à l’île Maurice : quel budget prévoir pour vos vacances",
-  "heroGenerated": false,
+  "heroGenerated": true,
   "readingTime": 12,
   "keyTakeaways": [
     "Le vol est souvent le premier poste de dépense : les vacances scolaires et la fin d’année tirent fortement les tarifs vers le haut.",

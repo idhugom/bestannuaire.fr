@@ -13,10 +13,10 @@
   ],
   "chapo": "Choisir un équipement de santé pour la maison ne se résume ni au prix ni à la livraison. Ce guide aide à contrôler la conformité, l’adaptation au besoin, les conditions de retour et les possibilités de prise en charge avant toute commande.",
   "metaDescription": "Homedic.fr : choisir du matériel médical à domicile, vérifier conformité, remboursement, livraison et suivi pour acheter en toute sécurité, sans vous tromper.",
-  "heroImage": null,
-  "heroImageSm": null,
+  "heroImage": "/img/heroes/homedic-fr.webp",
+  "heroImageSm": "/img/heroes/homedic-fr-sm.webp",
   "heroAlt": "Homedic.fr",
-  "heroGenerated": false,
+  "heroGenerated": true,
   "readingTime": 12,
   "keyTakeaways": [
     "Un dispositif médical doit être adapté à l’utilisateur, pas seulement à son usage théorique.",

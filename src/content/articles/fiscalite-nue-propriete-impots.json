@@ -13,10 +13,10 @@
   ],
   "chapo": "Vendre la nue-propriété d’un logement tout en conservant son usage peut libérer un capital, mais le gain fiscal n’est ni automatique ni uniforme. Plus-value, IFI, charges, valorisation du droit conservé et clauses de l’acte exigent une analyse distincte selon votre situation de vendeur ou d’acquéreur.",
   "metaDescription": "Vente en nue-propriété : plus-value, IFI, barème, frais et précautions pour optimiser votre fiscalité immobilière en France, sans erreur coûteuse majeure.",
-  "heroImage": null,
-  "heroImageSm": null,
+  "heroImage": "/img/heroes/fiscalite-nue-propriete-impots.webp",
+  "heroImageSm": "/img/heroes/fiscalite-nue-propriete-impots-sm.webp",
   "heroAlt": "Fiscalité liée à la vente en nue-propriété : optimiser vos impôts efficacement",
-  "heroGenerated": false,
+  "heroGenerated": true,
   "readingTime": 11,
   "keyTakeaways": [
     "Le barème fiscal de l’usufruit sert à valoriser les droits, mais ne fixe pas à lui seul le prix de vente.",

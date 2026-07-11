@@ -13,10 +13,10 @@
   ],
   "chapo": "Résultats, historiques, calculateurs et générateurs de grilles peuvent faciliter le suivi de l’EuroMillions. Encore faut-il distinguer les données vérifiables des promesses de pronostic, connaître les règles de validation et conserver un budget de jeu strictement maîtrisé. Voici les repères utiles avant de jouer ou de vérifier un ticket.",
   "metaDescription": "Tirage EuroMillions : consultez les résultats, vérifiez une grille, comprenez les probabilités et utilisez les statistiques sans tomber dans les pièges.",
-  "heroImage": null,
-  "heroImageSm": null,
+  "heroImage": "/img/heroes/tirage-euromillions-un-site-pour-en-savoir-plus-sur-leuromillions-2.webp",
+  "heroImageSm": "/img/heroes/tirage-euromillions-un-site-pour-en-savoir-plus-sur-leuromillions-2-sm.webp",
   "heroAlt": "Tirage-EuroMillions, un site pour en savoir plus sur l’EuroMillions",
-  "heroGenerated": false,
+  "heroGenerated": true,
   "readingTime": 10,
   "keyTakeaways": [
     "Vérifiez toujours une grille à partir du résultat publié par l’opérateur autorisé, avec la bonne date de tirage.",

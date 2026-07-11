@@ -14,10 +14,10 @@
   ],
   "chapo": "À Zanzibar, le repos dépend moins d’un programme chargé que du bon choix de côte, de saison et d’hébergement. Marées puissantes, déplacements parfois lents et codes culturels demandent quelques repères. Voici une méthode concrète pour composer une parenthèse balnéaire apaisée, sans sacrifier la découverte.",
   "metaDescription": "Préparez un séjour détente à Zanzibar : saisons, plages, marées, hébergement, santé et itinéraire doux pour une parenthèse vraiment reposante et sereine.",
-  "heroImage": null,
-  "heroImageSm": null,
+  "heroImage": "/img/heroes/sejour-detente-zanzibar.webp",
+  "heroImageSm": "/img/heroes/sejour-detente-zanzibar-sm.webp",
   "heroAlt": "Séjour détente à Zanzibar : Organiser des vacances reposantes au rythme de Zanzibar",
-  "heroGenerated": false,
+  "heroGenerated": true,
   "readingTime": 12,
   "keyTakeaways": [
     "Choisissez votre plage selon les marées : la côte est se découvre très différemment à marée basse.",

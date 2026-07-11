@@ -14,10 +14,10 @@
   ],
   "chapo": "Un changement d’usage, un nouveau conducteur ou un besoin de mieux couvrir votre microcar peuvent justifier un ajustement de contrat. En ligne, la démarche est souvent rapide, mais elle n’est pas forcément instantanée : seule la confirmation de l’assureur fixe vos nouvelles garanties.",
   "metaDescription": "Assurance voiture sans permis : modifiez vos garanties en ligne sans erreur, vérifiez la prise d’effet, le tarif et vos obligations de déclaration.",
-  "heroImage": null,
-  "heroImageSm": null,
+  "heroImage": "/img/heroes/assurance-sans-permis-modif.webp",
+  "heroImageSm": "/img/heroes/assurance-sans-permis-modif-sm.webp",
   "heroAlt": "Assurance voiture sans permis modification rapide en ligne : comment ajuster ses garanties en temps réel ?",
-  "heroGenerated": false,
+  "heroGenerated": true,
   "readingTime": 12,
   "keyTakeaways": [
     "Une demande envoyée en ligne ne vaut pas automatiquement modification du contrat.",

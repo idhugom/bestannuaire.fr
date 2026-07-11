@@ -13,10 +13,10 @@
   ],
   "chapo": "Lors d’une vente immobilière, confier une somme à un tiers ne se résume pas à verser un dépôt de garantie. Le séquestre organise la conservation des fonds et leurs conditions de libération. L’avocat peut en sécuriser la rédaction, la négociation et, selon le montage, le maniement encadré.",
   "metaDescription": "Séquestre immobilier : rôle de l’avocat, clauses indispensables, dépôt de garantie et procédures pour sécuriser une vente sans bloquer les fonds.",
-  "heroImage": null,
-  "heroImageSm": null,
+  "heroImage": "/img/heroes/sequestre-immobilier-avocat.webp",
+  "heroImageSm": "/img/heroes/sequestre-immobilier-avocat-sm.webp",
   "heroAlt": "séquestre immobilier : intervention d’un avocat pour sécuriser l’accord",
-  "heroGenerated": false,
+  "heroGenerated": true,
   "readingTime": 11,
   "keyTakeaways": [
     "Le dépôt versé au compromis n’est pas automatiquement un « séquestre » au sens juridique strict.",

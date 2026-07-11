@@ -13,10 +13,10 @@
   ],
   "chapo": "Acheter une maison ancienne peut offrir du cachet, une localisation recherchée et un prix d’acquisition plus accessible. Mais le financement doit intégrer l’état réel du bâti, les travaux parfois incontournables et les contraintes énergétiques. Voici comment présenter un dossier bancaire solide sans sous-estimer le coût global du projet.",
   "metaDescription": "Prêt immobilier pour une maison ancienne : apport, taux d’endettement, travaux, DPE, aides et garanties pour financer l’achat sans mauvaise surprise.",
-  "heroImage": null,
-  "heroImageSm": null,
+  "heroImage": "/img/heroes/pret-immobilier-maison-ancienne.webp",
+  "heroImageSm": "/img/heroes/pret-immobilier-maison-ancienne-sm.webp",
   "heroAlt": "Prêt immobilier pour acheter une maison ancienne : quelles conditions ?",
-  "heroGenerated": false,
+  "heroGenerated": true,
   "readingTime": 12,
   "keyTakeaways": [
     "La banque évalue votre solvabilité, mais aussi la valeur et la facilité de revente de la maison.",

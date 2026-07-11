@@ -14,10 +14,10 @@
   ],
   "chapo": "Dans un atelier haut de plafond ou un entrepôt occupé par intermittence, chauffer tout l’air est rarement la réponse la plus pertinente. Le tube radiant gaz diffuse une chaleur dirigée vers les personnes, les postes et les surfaces. Son intérêt dépend toutefois d’un dimensionnement précis, d’une implantation rigoureuse et de contraintes de sécurité non négociables.",
   "metaDescription": "Tube radiant gaz industriel : fonctionnement, dimensionnement, sécurité, coûts, normes et alternatives pour chauffer durablement atelier ou entrepôt.",
-  "heroImage": null,
-  "heroImageSm": null,
+  "heroImage": "/img/heroes/tube-radiant-gaz-industriel.webp",
+  "heroImageSm": "/img/heroes/tube-radiant-gaz-industriel-sm.webp",
   "heroAlt": "Tube radiant gaz pour locaux industriels : Chauffage par tube radiant gaz conçu pour locaux industriels exigeants",
-  "heroGenerated": false,
+  "heroGenerated": true,
   "readingTime": 12,
   "keyTakeaways": [
     "Le tube radiant gaz chauffe surtout par rayonnement : il convient aux grands volumes et aux zones de travail ciblées.",

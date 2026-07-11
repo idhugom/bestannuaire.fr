@@ -14,10 +14,10 @@
   ],
   "chapo": "La résiliation annuelle issue de la loi Bourquin a marqué une étape importante, mais elle a été remplacée par un droit plus large : changer d’assurance emprunteur à tout moment. Face à la banque, l’emprunteur n’est pas sans recours : l’équivalence des garanties, les délais et la motivation du refus sont strictement encadrés.",
   "metaDescription": "Loi Bourquin et assurance emprunteur : droits, délais et recours pour contester un refus bancaire et changer de contrat sans frais ni pénalité pour vous.",
-  "heroImage": null,
-  "heroImageSm": null,
+  "heroImage": "/img/heroes/loi-bourquin-protection-emprunteur.webp",
+  "heroImageSm": "/img/heroes/loi-bourquin-protection-emprunteur-sm.webp",
   "heroAlt": "Loi Bourquin protection de l’emprunteur : quelles garanties contre les refus abusifs de la banque ?",
-  "heroGenerated": false,
+  "heroGenerated": true,
   "readingTime": 11,
   "keyTakeaways": [
     "Vous pouvez désormais changer d’assurance emprunteur à tout moment, sans attendre la date anniversaire du contrat.",

@@ -480,48 +480,70 @@
     "alt": "Garantie d\u00e9cennale pour menuisier : quelles protections pour les travaux de menuiserie int\u00e9rieure et ext\u00e9rieure ?"
   },
   "location-voiture-vtc-formation": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/location-voiture-vtc-formation.webp",
+    "sm": "/img/heroes/location-voiture-vtc-formation-sm.webp",
+    "alt": "Location voiture VTC pour formation chauffeur : Location de voiture VTC pour apprentissage et formation pratique"
   },
   "fiscalite-nue-propriete-impots": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/fiscalite-nue-propriete-impots.webp",
+    "sm": "/img/heroes/fiscalite-nue-propriete-impots-sm.webp",
+    "alt": "Fiscalit\u00e9 li\u00e9e \u00e0 la vente en nue-propri\u00e9t\u00e9 : optimiser vos imp\u00f4ts efficacement"
   },
   "assurance-sans-permis-modif": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/assurance-sans-permis-modif.webp",
+    "sm": "/img/heroes/assurance-sans-permis-modif-sm.webp",
+    "alt": "Assurance voiture sans permis modification rapide en ligne : comment ajuster ses garanties en temps r\u00e9el ?"
   },
   "sejour-noces-resort-luxe": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/sejour-noces-resort-luxe.webp",
+    "sm": "/img/heroes/sejour-noces-resort-luxe-sm.webp",
+    "alt": "S\u00e9jour de noces dans un resort de luxe : des moments de d\u00e9tente dans un cadre d\u2019exception"
   },
   "montre-connectee-thermometre": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/montre-connectee-thermometre.webp",
+    "sm": "/img/heroes/montre-connectee-thermometre-sm.webp",
+    "alt": "Montre connect\u00e9e avec thermom\u00e8tre : surveillez votre temp\u00e9rature corporelle en temps r\u00e9el"
   },
   "chaussettes-bottes-confort": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/chaussettes-bottes-confort.webp",
+    "sm": "/img/heroes/chaussettes-bottes-confort-sm.webp",
+    "alt": "Chaussettes hautes pour bottes : confort thermique et maintien optimal"
   },
   "orthophonie-troubles-comprehension": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/orthophonie-troubles-comprehension.webp",
+    "sm": "/img/heroes/orthophonie-troubles-comprehension-sm.webp",
+    "alt": "Orthophonie et troubles de la compr\u00e9hension orale chez l\u2019enfant"
   },
   "sequestre-immobilier-avocat": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/sequestre-immobilier-avocat.webp",
+    "sm": "/img/heroes/sequestre-immobilier-avocat-sm.webp",
+    "alt": "s\u00e9questre immobilier : intervention d\u2019un avocat pour s\u00e9curiser l\u2019accord"
   },
   "camion-benne-capacite-chantiers": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/camion-benne-capacite-chantiers.webp",
+    "sm": "/img/heroes/camion-benne-capacite-chantiers-sm.webp",
+    "alt": "Location camion benne grande capacit\u00e9 : adapt\u00e9e aux chantiers \u00e0 fort volume"
   },
   "retraite-liberation-guerison": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/retraite-liberation-guerison.webp",
+    "sm": "/img/heroes/retraite-liberation-guerison-sm.webp",
+    "alt": "Retraite spirituelle pour la lib\u00e9ration int\u00e9rieure et la gu\u00e9rison spirituelle"
   },
   "badges-evenementiels-sarcelles": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/badges-evenementiels-sarcelles.webp",
+    "sm": "/img/heroes/badges-evenementiels-sarcelles-sm.webp",
+    "alt": "Impression badges \u00e9v\u00e9nementiels Sarcelles : identifiez vos participants avec un badge imprim\u00e9"
   },
   "assurance-logement-vacant": {
     "status": "downloaded",
@@ -530,24 +552,34 @@
     "alt": ""
   },
   "magret-canard-roti-miel": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/magret-canard-roti-miel.webp",
+    "sm": "/img/heroes/magret-canard-roti-miel-sm.webp",
+    "alt": "Magret de canard r\u00f4ti au miel et \u00e9pices : une cuisson parfum\u00e9e"
   },
   "loi-bourquin-protection-emprunteur": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/loi-bourquin-protection-emprunteur.webp",
+    "sm": "/img/heroes/loi-bourquin-protection-emprunteur-sm.webp",
+    "alt": "Loi Bourquin protection de l\u2019emprunteur : quelles garanties contre les refus abusifs de la banque ?"
   },
   "retraite-nature-energie": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/retraite-nature-energie.webp",
+    "sm": "/img/heroes/retraite-nature-energie-sm.webp",
+    "alt": "Retraite spirituelle pour reconnecter avec la nature et son \u00e9nergie"
   },
   "assurance-punaises-lit": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/assurance-punaises-lit.webp",
+    "sm": "/img/heroes/assurance-punaises-lit-sm.webp",
+    "alt": "Assurance multirisque punaises de lit : quelles offres incluent la prise en charge des infestations ?"
   },
   "loi-chatel-resiliation-assurance": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/loi-chatel-resiliation-assurance.webp",
+    "sm": "/img/heroes/loi-chatel-resiliation-assurance-sm.webp",
+    "alt": "Loi Chatel r\u00e9siliation assurance responsabilit\u00e9 civile : comment mettre fin \u00e0 son assurance RC ?"
   },
   "maillot-foot-accessoire-mode": {
     "status": "downloaded",
@@ -634,7 +666,10 @@
     "alt": ""
   },
   "maison-sarah-lavoine-lelegance-du-porte-manteau-design": {
-    "status": "none"
+    "status": "generated",
+    "hero": "/img/heroes/maison-sarah-lavoine-lelegance-du-porte-manteau-design.webp",
+    "sm": "/img/heroes/maison-sarah-lavoine-lelegance-du-porte-manteau-design-sm.webp",
+    "alt": "Maison Sarah Lavoine : l\u2019\u00e9l\u00e9gance du porte manteau design"
   },
   "quelle-est-limportance-du-toilettage-dans-la-prevention-des-poux-chez-les-chevaux": {
     "status": "downloaded",
@@ -4159,7 +4194,10 @@
     "alt": ""
   },
   "1voyance-le-guide-pour-tout-savoir-sur-la-voyance": {
-    "status": "none"
+    "status": "generated",
+    "hero": "/img/heroes/1voyance-le-guide-pour-tout-savoir-sur-la-voyance.webp",
+    "sm": "/img/heroes/1voyance-le-guide-pour-tout-savoir-sur-la-voyance-sm.webp",
+    "alt": "1Voyance, le guide pour tout savoir sur la voyance"
   },
   "quels-sont-les-benefices-dun-bilan-de-competences-et-comment-le-mettre-en-place": {
     "status": "downloaded",
@@ -4216,7 +4254,10 @@
     "alt": ""
   },
   "tirage-euromillions-un-site-pour-en-savoir-plus-sur-leuromillions-2": {
-    "status": "none"
+    "status": "generated",
+    "hero": "/img/heroes/tirage-euromillions-un-site-pour-en-savoir-plus-sur-leuromillions-2.webp",
+    "sm": "/img/heroes/tirage-euromillions-un-site-pour-en-savoir-plus-sur-leuromillions-2-sm.webp",
+    "alt": "Tirage-EuroMillions, un site pour en savoir plus sur l\u2019EuroMillions"
   },
   "creer-un-carre-potager-decouvrez-les-etapes-cles-pour-reussir-votre-projet": {
     "status": "downloaded",
@@ -4411,7 +4452,10 @@
     "alt": ""
   },
   "esoteria-shop": {
-    "status": "none"
+    "status": "generated",
+    "hero": "/img/heroes/esoteria-shop.webp",
+    "sm": "/img/heroes/esoteria-shop-sm.webp",
+    "alt": "Esoteria Shop"
   },
   "votre-guide-pratique-pour-tout-savoir-sur-le-renforcement-musculaire": {
     "status": "downloaded",
@@ -4516,7 +4560,10 @@
     "alt": ""
   },
   "fournisseurs-votre-portail-web-generaliste": {
-    "status": "none"
+    "status": "generated",
+    "hero": "/img/heroes/fournisseurs-votre-portail-web-generaliste.webp",
+    "sm": "/img/heroes/fournisseurs-votre-portail-web-generaliste-sm.webp",
+    "alt": "Fournisseurs, votre portail Web g\u00e9n\u00e9raliste"
   },
   "le-blog-pour-entreprendre-sans-difficulte": {
     "status": "downloaded",
@@ -4537,10 +4584,16 @@
     "alt": ""
   },
   "meemoria-votre-labo-expert-en-numerisation": {
-    "status": "none"
+    "status": "generated",
+    "hero": "/img/heroes/meemoria-votre-labo-expert-en-numerisation.webp",
+    "sm": "/img/heroes/meemoria-votre-labo-expert-en-numerisation-sm.webp",
+    "alt": "Meemoria, votre labo expert en num\u00e9risation"
   },
   "homedic-fr": {
-    "status": "none"
+    "status": "generated",
+    "hero": "/img/heroes/homedic-fr.webp",
+    "sm": "/img/heroes/homedic-fr-sm.webp",
+    "alt": "Homedic.fr"
   },
   "vente-de-camions-poids-lourds-vehicules-utilitaires-et-materiels-tp": {
     "status": "downloaded",
@@ -4651,7 +4704,10 @@
     "alt": ""
   },
   "terrains-a-vendre-fr": {
-    "status": "none"
+    "status": "generated",
+    "hero": "/img/heroes/terrains-a-vendre-fr.webp",
+    "sm": "/img/heroes/terrains-a-vendre-fr-sm.webp",
+    "alt": "Terrains-a-vendre.fr"
   },
   "op": {
     "status": "downloaded",
@@ -4720,7 +4776,10 @@
     "alt": ""
   },
   "immobilier-montpellier-com": {
-    "status": "none"
+    "status": "generated",
+    "hero": "/img/heroes/immobilier-montpellier-com.webp",
+    "sm": "/img/heroes/immobilier-montpellier-com-sm.webp",
+    "alt": "Immobilier-montpellier.com"
   },
   "la-boutique-de-reference-des-complements-alimentaires-100-naturels": {
     "status": "downloaded",
@@ -4735,7 +4794,10 @@
     "alt": ""
   },
   "phnet-un-magazine-dinformations-riches-en-conseils-et-en-informations": {
-    "status": "none"
+    "status": "generated",
+    "hero": "/img/heroes/phnet-un-magazine-dinformations-riches-en-conseils-et-en-informations.webp",
+    "sm": "/img/heroes/phnet-un-magazine-dinformations-riches-en-conseils-et-en-informations-sm.webp",
+    "alt": "PHNET, un magazine d\u2019informations riches en conseils et en informations"
   },
   "portail-dinformations": {
     "status": "downloaded",
@@ -4810,7 +4872,10 @@
     "alt": ""
   },
   "truck1-be": {
-    "status": "none"
+    "status": "generated",
+    "hero": "/img/heroes/truck1-be.webp",
+    "sm": "/img/heroes/truck1-be-sm.webp",
+    "alt": "Truck1.be"
   },
   "des-informations-utiles-sur-la-sante-et-autres": {
     "status": "downloaded",

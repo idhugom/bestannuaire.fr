@@ -14,10 +14,10 @@
   ],
   "chapo": "Un enfant qui ne comprend pas bien les consignes ou les récits n’est ni forcément inattentif ni opposant. Ces difficultés peuvent avoir des origines variées et nécessitent une évaluation rigoureuse. Repérage, bilan orthophonique, place des parents et aménagements scolaires : voici comment agir sans étiqueter trop vite.",
   "metaDescription": "Troubles de la compréhension orale chez l’enfant : signes, bilan orthophonique, causes à rechercher et adaptations utiles à l’école comme à la maison et en classe.",
-  "heroImage": null,
-  "heroImageSm": null,
+  "heroImage": "/img/heroes/orthophonie-troubles-comprehension.webp",
+  "heroImageSm": "/img/heroes/orthophonie-troubles-comprehension-sm.webp",
   "heroAlt": "Orthophonie et troubles de la compréhension orale chez l’enfant",
-  "heroGenerated": false,
+  "heroGenerated": true,
   "readingTime": 13,
   "keyTakeaways": [
     "Des incompréhensions répétées, dans plusieurs contextes, justifient un avis professionnel ; elles ne se résument pas à un manque d’attention.",

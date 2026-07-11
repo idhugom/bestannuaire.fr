@@ -14,10 +14,10 @@
   ],
   "chapo": "Une parcelle affichée « constructible » ne garantit ni votre projet, ni son coût réel. Urbanisme, accès, sol, réseaux, fiscalité et contrat : voici la méthode pour analyser un terrain avant de vous engager, qu’il s’agisse d’y bâtir votre résidence ou de préparer un investissement.",
   "metaDescription": "Terrain à vendre : vérifiez urbanisme, viabilisation, risques, budget et clauses du compromis. Méthode complète pour acheter sereinement en France entière.",
-  "heroImage": null,
-  "heroImageSm": null,
+  "heroImage": "/img/heroes/terrains-a-vendre-fr.webp",
+  "heroImageSm": "/img/heroes/terrains-a-vendre-fr-sm.webp",
   "heroAlt": "Terrains-a-vendre.fr",
-  "heroGenerated": false,
+  "heroGenerated": true,
   "readingTime": 11,
   "keyTakeaways": [
     "Un terrain constructible doit être compatible avec votre projet précis, pas seulement avec une construction en théorie.",

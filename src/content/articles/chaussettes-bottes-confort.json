@@ -14,10 +14,10 @@
   ],
   "chapo": "Dans une botte, la bonne chaussette ne se contente pas d’ajouter de la chaleur : elle évacue l’humidité, limite les frottements et stabilise le pied. Matière, épaisseur, hauteur et coupe doivent surtout être choisies en fonction du volume réel de la chaussure et de votre usage.",
   "metaDescription": "Chaussettes hautes pour bottes : matières, épaisseur, taille et entretien. Nos critères pour garder les pieds chauds, secs et sans frottements en hiver.",
-  "heroImage": null,
-  "heroImageSm": null,
+  "heroImage": "/img/heroes/chaussettes-bottes-confort.webp",
+  "heroImageSm": "/img/heroes/chaussettes-bottes-confort-sm.webp",
   "heroAlt": "Chaussettes hautes pour bottes : confort thermique et maintien optimal",
-  "heroGenerated": false,
+  "heroGenerated": true,
   "readingTime": 10,
   "keyTakeaways": [
     "Une botte trop serrée avec une chaussette épaisse peut refroidir le pied au lieu de le protéger.",

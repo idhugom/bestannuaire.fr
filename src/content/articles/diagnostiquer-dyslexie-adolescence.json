@@ -13,10 +13,10 @@
   ],
   "chapo": "Une dyslexie peut être identifiée au collège ou au lycée, parfois après des années de difficultés attribuées à tort au manque de travail. Un bilan rigoureux permet de comprendre le profil de l’adolescent, d’écarter d’autres causes possibles et de mettre en place des aides concrètes, sans le réduire à ses résultats scolaires.",
   "metaDescription": "Diagnostiquer la dyslexie à l’adolescence : repérer les signes, obtenir un bilan fiable et activer les aides scolaires adaptées pour votre adolescent.",
-  "heroImage": null,
-  "heroImageSm": null,
+  "heroImage": "/img/heroes/diagnostiquer-dyslexie-adolescence.webp",
+  "heroImageSm": "/img/heroes/diagnostiquer-dyslexie-adolescence-sm.webp",
   "heroAlt": "Comment diagnostiquer la dyslexie à l’adolescence ?",
-  "heroGenerated": false,
+  "heroGenerated": true,
   "readingTime": 12,
   "keyTakeaways": [
     "Un diagnostic de dyslexie reste possible à l’adolescence et ne dépend pas d’un seul test.",

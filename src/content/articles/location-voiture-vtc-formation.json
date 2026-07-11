@@ -13,10 +13,10 @@
   ],
   "chapo": "Louer un véhicule pour préparer le métier de chauffeur VTC peut éviter un investissement prématuré, à condition de ne pas confondre voiture d’apprentissage, véhicule d’examen et outil de travail. Conformité du véhicule, assurance du candidat et clauses du contrat méritent une vérification méthodique avant toute réservation.",
   "metaDescription": "Location de voiture VTC pour formation : choisissez véhicule, assurance et contrat pour apprendre, passer l’examen pratique et garder la maîtrise du budget.",
-  "heroImage": null,
-  "heroImageSm": null,
+  "heroImage": "/img/heroes/location-voiture-vtc-formation.webp",
+  "heroImageSm": "/img/heroes/location-voiture-vtc-formation-sm.webp",
   "heroAlt": "Location voiture VTC pour formation chauffeur : Location de voiture VTC pour apprentissage et formation pratique",
-  "heroGenerated": false,
+  "heroGenerated": true,
   "readingTime": 12,
   "keyTakeaways": [
     "Une voiture dite « VTC » n’est pas automatiquement admise pour l’examen pratique ni couverte pour la formation.",

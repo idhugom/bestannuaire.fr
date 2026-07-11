@@ -13,10 +13,10 @@
   ],
   "chapo": "Le rayonnement infrarouge peut offrir une sensation de chaleur rapide et ciblée, à condition de choisir la bonne technologie. Quant au capteur de lumière ambiante, il n’est pas forcément un régulateur de chauffage : son rôle doit être vérifié avant l’achat et l’installation.",
   "metaDescription": "Panneau radiant lumineux avec capteur de luminosité : rôle du capteur, fonctionnement, installation, sécurité, choix et réglages utiles au quotidien.",
-  "heroImage": null,
-  "heroImageSm": null,
+  "heroImage": "/img/heroes/panneau-radiant-lumineux.webp",
+  "heroImageSm": "/img/heroes/panneau-radiant-lumineux-sm.webp",
   "heroAlt": "Panneau radiant lumineux avec capteur de luminosité : Panneau radiant lumineux ajustable avec capteur de lumière ambiante",
-  "heroGenerated": false,
+  "heroGenerated": true,
   "readingTime": 11,
   "keyTakeaways": [
     "Un panneau radiant chauffe surtout les personnes et les surfaces exposées, davantage que l’air ambiant.",
