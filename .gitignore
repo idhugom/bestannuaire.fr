@@ -20,3 +20,7 @@ data/batch_output*.jsonl
 # os
 .DS_Store
 Thumbs.db
+
+# python
+__pycache__/
+*.pyc
