@@ -420,44 +420,64 @@
     "alt": "Pr\u00eat immobilier pour acheter une maison ancienne : quelles conditions ?"
   },
   "budget-sejour-ile-maurice": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/budget-sejour-ile-maurice.webp",
+    "sm": "/img/heroes/budget-sejour-ile-maurice-sm.webp",
+    "alt": "Prix d\u2019un s\u00e9jour \u00e0 l\u2019\u00eele Maurice : quel budget pr\u00e9voir pour vos vacances"
   },
   "vente-nue-propriete-defiscalisation": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/vente-nue-propriete-defiscalisation.webp",
+    "sm": "/img/heroes/vente-nue-propriete-defiscalisation-sm.webp",
+    "alt": "Vendre en nue-propri\u00e9t\u00e9 et d\u00e9fiscalisation : une opportunit\u00e9 \u00e0 saisir"
   },
   "vendre-nue-propriete-defiscalisation": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/vendre-nue-propriete-defiscalisation.webp",
+    "sm": "/img/heroes/vendre-nue-propriete-defiscalisation-sm.webp",
+    "alt": "Vendre en nue-propri\u00e9t\u00e9 dans le cadre de la d\u00e9fiscalisation : optimisez vos imp\u00f4ts"
   },
   "panneau-radiant-lumineux": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/panneau-radiant-lumineux.webp",
+    "sm": "/img/heroes/panneau-radiant-lumineux-sm.webp",
+    "alt": "Panneau radiant lumineux avec capteur de luminosit\u00e9 : Panneau radiant lumineux ajustable avec capteur de lumi\u00e8re ambiante"
   },
   "protection-siege-tesla-enfants": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/protection-siege-tesla-enfants.webp",
+    "sm": "/img/heroes/protection-siege-tesla-enfants-sm.webp",
+    "alt": "Protection si\u00e8ge Tesla pour la s\u00e9curit\u00e9 des enfants : protection de si\u00e8ge Tesla adapt\u00e9e \u00e0 la s\u00e9curit\u00e9 des enfants"
   },
   "sejour-luxe-annecy": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/sejour-luxe-annecy.webp",
+    "sm": "/img/heroes/sejour-luxe-annecy-sm.webp",
+    "alt": "S\u00e9jour de luxe Triangle d\u2019Or Annecy : un h\u00e9bergement haut de gamme au c\u0153ur de la ville"
   },
   "tube-radiant-gaz-industriel": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/tube-radiant-gaz-industriel.webp",
+    "sm": "/img/heroes/tube-radiant-gaz-industriel-sm.webp",
+    "alt": "Tube radiant gaz pour locaux industriels : Chauffage par tube radiant gaz con\u00e7u pour locaux industriels exigeants"
   },
   "assurance-bateau-longue-distance": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/assurance-bateau-longue-distance.webp",
+    "sm": "/img/heroes/assurance-bateau-longue-distance-sm.webp",
+    "alt": "Assurance bateau navigation longue distance : quelles garanties pour les grandes travers\u00e9es ?"
   },
   "noeud-papillon-vert-olive": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/noeud-papillon-vert-olive.webp",
+    "sm": "/img/heroes/noeud-papillon-vert-olive-sm.webp",
+    "alt": "N\u0153ud papillon vert olive \u00e9l\u00e9gant : Teinte sobre et originale avec un n\u0153ud papillon vert olive"
   },
   "garantie-decennale-menuisier": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/garantie-decennale-menuisier.webp",
+    "sm": "/img/heroes/garantie-decennale-menuisier-sm.webp",
+    "alt": "Garantie d\u00e9cennale pour menuisier : quelles protections pour les travaux de menuiserie int\u00e9rieure et ext\u00e9rieure ?"
   },
   "location-voiture-vtc-formation": {
     "status": "failed",
