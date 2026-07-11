@@ -1,0 +1,97 @@
+/* ============================================================
+   BEST ANNUAIRE — Design tokens
+   Direction artistique : « Kinetic Editorial »
+   Papier chaud + encre + vermillon signature, ombres franches,
+   typographie serif expressive. Sobre mais résolument non-standard.
+   ============================================================ */
+:root {
+  /* — Palette (thème papier / clair) — */
+  --paper:      #F4EFE4;
+  --paper-2:    #EDE6D6;
+  --paper-3:    #E4DAC5;
+  --card:       #FBF8F1;
+  --ink:        #17130D;
+  --ink-2:      #4B4238;
+  --ink-3:      #7A6E5E;
+  --accent:     #FF3B12;   /* vermillon — couleur signature */
+  --accent-ink: #B5240A;   /* vermillon foncé, contraste texte */
+  --accent-2:   #0E5C4A;   /* vert bouteille — rubriques/tags */
+  --accent-3:   #2340C4;   /* bleu électrique — liens/accents secondaires */
+  --gold:       #C8A24B;
+  /* Surfaces « panneau » — toujours sombres, dans les deux thèmes */
+  --panel:      #14110C;
+  --panel-2:    #0D0B08;
+  --panel-fg:   #F4EFE4;
+  --panel-fg-dim: rgba(244, 239, 228, 0.66);
+  --panel-line: rgba(244, 239, 228, 0.16);
+  --line:       rgba(23, 19, 13, 0.16);
+  --line-strong:rgba(23, 19, 13, 0.85);
+  --shadow-col: rgba(23, 19, 13, 0.9);
+  --sel:        rgba(255, 59, 18, 0.22);
+
+  /* — Typographie — */
+  --font-display: "Fraunces Variable", "Fraunces", Georgia, "Times New Roman", serif;
+  --font-serif:   "Newsreader Variable", "Newsreader", Georgia, "Times New Roman", serif;
+  --font-sans:    "Space Grotesk Variable", "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+
+  /* Échelle fluide (clamp) — fort contraste éditorial */
+  --step--1: clamp(0.80rem, 0.76rem + 0.20vw, 0.92rem);
+  --step-0:  clamp(1.02rem, 0.98rem + 0.22vw, 1.16rem);
+  --step-1:  clamp(1.26rem, 1.16rem + 0.5vw, 1.6rem);
+  --step-2:  clamp(1.6rem, 1.4rem + 1.0vw, 2.3rem);
+  --step-3:  clamp(2.1rem, 1.7rem + 2.0vw, 3.4rem);
+  --step-4:  clamp(2.8rem, 2.0rem + 4.0vw, 5.4rem);
+  --step-5:  clamp(3.4rem, 2.2rem + 6.6vw, 8.5rem);
+  --step-6:  clamp(4rem, 2rem + 12vw, 13rem);
+
+  /* — Espacement — */
+  --sp-1: 0.35rem;
+  --sp-2: 0.6rem;
+  --sp-3: 1rem;
+  --sp-4: 1.6rem;
+  --sp-5: 2.6rem;
+  --sp-6: 4.2rem;
+  --sp-7: 6.8rem;
+  --gutter: clamp(1.1rem, 0.6rem + 2.5vw, 3rem);
+  --maxw: 1320px;
+  --measure: 68ch;
+
+  /* — Formes — */
+  --radius: 4px;
+  --radius-lg: 10px;
+  --border: 1.5px solid var(--line-strong);
+  --hard-shadow: 6px 6px 0 var(--shadow-col);
+  --hard-shadow-sm: 4px 4px 0 var(--shadow-col);
+
+  /* — Mouvement — */
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-inout: cubic-bezier(0.76, 0, 0.24, 1);
+  --dur: 0.55s;
+
+  color-scheme: light;
+}
+
+/* — Thème encre / sombre — */
+:root[data-theme="dark"] {
+  --paper:      #14110C;
+  --paper-2:    #1C1811;
+  --paper-3:    #262016;
+  --card:       #1B1710;
+  --ink:        #F2ECDD;
+  --ink-2:      #C4B9A6;
+  --ink-3:      #8E8371;
+  --accent:     #FF5A32;
+  --accent-ink: #FF7A57;
+  --accent-2:   #37B893;
+  --accent-3:   #6E88FF;
+  --gold:       #E0BC66;
+  --line:       rgba(242, 236, 221, 0.14);
+  --line-strong:rgba(242, 236, 221, 0.82);
+  --shadow-col: rgba(0, 0, 0, 0.85);
+  --sel:        rgba(255, 90, 50, 0.3);
+  color-scheme: dark;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root { --dur: 0.001s; }
+}

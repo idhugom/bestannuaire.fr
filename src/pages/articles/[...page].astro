@@ -1,0 +1,56 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import PageHero from '../../components/PageHero.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import Pager from '../../components/Pager.astro';
+import { SITE } from '../../lib/site';
+
+export async function getStaticPaths() {
+  const all = (await getCollection('articles')).sort((a, b) => +b.data.date - +a.data.date);
+  const size = 24;
+  const total = Math.max(1, Math.ceil(all.length / size));
+  return Array.from({ length: total }, (_, i) => {
+    const page = i + 1;
+    return {
+      params: { page: page === 1 ? undefined : String(page) },
+      props: {
+        items: all.slice(i * size, i * size + size),
+        current: page,
+        total,
+        totalItems: all.length,
+      },
+    };
+  });
+}
+
+const { items, current, total, totalItems } = Astro.props;
+const canonicalPath = current === 1 ? '/articles' : `/articles/${current}`;
+---
+<Base
+  title={current === 1 ? 'Tous les dossiers' : `Tous les dossiers — page ${current}`}
+  description={`Parcourez l'ensemble des ${totalItems} dossiers de ${SITE.name} : guides, comparatifs et analyses classés par date.`}
+  canonicalPath={canonicalPath}
+>
+  <PageHero
+    eyebrow="L'archive complète"
+    title="Tous les dossiers"
+    description="Chaque enquête, guide et comparatif publié par la rédaction — du plus récent au plus ancien."
+    count={totalItems}
+  />
+  <section class="wrap wrap--wide" style="padding-top: 2.4rem;">
+    {items.length > 0 ? (
+      <div class="grid-articles">
+        {items.map((a, i) => (<ArticleCard article={a} index={i} eager={i < 4} />))}
+      </div>
+    ) : (
+      <p class="empty">Les dossiers arrivent très bientôt.</p>
+    )}
+    <Pager current={current} total={total} basePath="/articles" />
+  </section>
+</Base>
+
+<style>
+  .grid-articles { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: clamp(1.4rem, 2.5vw, 2.4rem); }
+  .empty { font-family: var(--font-sans); color: var(--ink-2); padding: 3rem 0; }
+</style>

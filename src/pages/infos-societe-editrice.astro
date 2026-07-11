@@ -1,0 +1,54 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHero from '../components/PageHero.astro';
+import { SITE } from '../lib/site';
+---
+<Base
+  title="À propos — la société éditrice"
+  description={`Qui est derrière ${SITE.name} ? Notre mission, notre méthode éditoriale et nos engagements de transparence.`}
+  canonicalPath="/infos-societe-editrice"
+>
+  <PageHero eyebrow="Le média" title="À propos" description={`${SITE.name}, ${SITE.tagline.toLowerCase()}.`} />
+
+  <section class="wrap wrap--narrow legal">
+    <div class="prose">
+      <p class="lead"><strong>{SITE.name}</strong> est un média indépendant en ligne qui décrypte, compare et sélectionne
+      le meilleur d'internet : services, produits, démarches et bons plans. Notre promesse est simple —
+      transformer une masse d'informations dispersées en dossiers <strong>clairs, vérifiés et réellement utiles</strong>.</p>
+
+      <h2>Notre mission</h2>
+      <p>Chaque jour, des millions de recherches en ligne se heurtent à des contenus creux, redondants ou biaisés.
+      Nous faisons l'inverse : nous partons de l'intention réelle du lecteur et nous y répondons de bout en bout,
+      avec méthode. Un dossier {SITE.name} doit vous éviter d'avoir à ouvrir dix autres onglets.</p>
+
+      <h2>Notre méthode éditoriale</h2>
+      <ul>
+        <li><strong>Angle utile d'abord.</strong> On identifie la question, les sous-questions et les pièges avant d'écrire.</li>
+        <li><strong>Structure au service de la lecture.</strong> Tableaux comparatifs, encadrés, étapes, FAQ : l'information est hiérarchisée.</li>
+        <li><strong>Neutralité.</strong> Nos dossiers ne sont pas des publireportages. Aucune marque n'achète sa place dans nos analyses.</li>
+        <li><strong>Actualisation.</strong> Les contenus sont revus et mis à jour pour rester exacts.</li>
+      </ul>
+
+      <aside class="callout callout--key">
+        <p class="callout__title">Transparence</p>
+        <p>Certaines illustrations sont produites par des outils de génération d'images et signalées comme telles.
+        Nos contenus éditoriaux sont conçus et vérifiés par la rédaction.</p>
+      </aside>
+
+      <h2>Performance & sobriété</h2>
+      <p>Ce site est un média « nouvelle génération » : entièrement statique, pré-généré et distribué depuis le
+      réseau <em>edge</em> mondial de Cloudflare. Résultat : des pages qui s'affichent quasi instantanément,
+      une empreinte technique réduite et une disponibilité maximale.</p>
+
+      <h2>Société éditrice</h2>
+      <p>Pour toute information relative à la société éditrice, à la direction de la publication ou pour exercer
+      vos droits, consultez nos <a href="/mentions-du-site">mentions légales</a> ou écrivez-nous depuis la
+      page <a href="/me-contacter">contact</a>.</p>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .legal { padding-top: 2.5rem; padding-bottom: 2rem; }
+  .legal .lead { font-size: var(--step-1); color: var(--ink-2); }
+</style>

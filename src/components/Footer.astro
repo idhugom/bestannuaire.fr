@@ -1,0 +1,75 @@
+---
+import { SITE, RUBRIQUES, FOOTER_LINKS } from '../lib/site';
+const year = new Date().getFullYear();
+---
+<footer class="foot">
+  <div class="foot__marquee marquee" aria-hidden="true">
+    <div class="marquee__track" style="--marquee-dur: 32s">
+      {Array.from({ length: 2 }).map(() => (
+        <span class="foot__marquee-in">
+          {RUBRIQUES.map((r) => (<><a href={`/rubrique/${r.slug}`}>{r.label}</a><span class="foot__star">✦</span></>))}
+        </span>
+      ))}
+    </div>
+  </div>
+
+  <div class="wrap wrap--wide foot__grid">
+    <div class="foot__brand">
+      <span class="foot__plaque"><img src="/img/logo.png" alt={SITE.name} width="730" height="181" loading="lazy" /></span>
+      <p class="foot__pitch">{SITE.description}</p>
+      <a href="/recherche" class="btn btn--accent">Explorer les {`843`}+ dossiers</a>
+    </div>
+
+    <nav class="foot__col" aria-label="Rubriques">
+      <h3 class="foot__h">Rubriques</h3>
+      <ul>
+        {RUBRIQUES.map((r) => (<li><a href={`/rubrique/${r.slug}`}>{r.label}</a></li>))}
+      </ul>
+    </nav>
+
+    <nav class="foot__col" aria-label="Le média">
+      <h3 class="foot__h">Le média</h3>
+      <ul>
+        {FOOTER_LINKS.map((l) => (<li><a href={l.href}>{l.label}</a></li>))}
+      </ul>
+    </nav>
+  </div>
+
+  <div class="wrap wrap--wide foot__bottom">
+    <p>© {SITE.founded}–{year} {SITE.name}. Tous droits réservés.</p>
+    <p class="foot__made">Média statique nouvelle génération — servi depuis le edge.</p>
+    <button class="foot__top" data-scroll-top aria-label="Haut de page">Haut ↑</button>
+  </div>
+</footer>
+
+<style>
+  .foot { background: var(--panel); color: var(--panel-fg); margin-top: var(--sp-7); position: relative; border-top: 2px solid var(--line-strong); }
+  .foot__marquee { border-bottom: 2px solid var(--panel-line); font-family: var(--font-display); }
+  .foot__marquee-in { display: inline-flex; align-items: center; }
+  .foot__marquee-in a { font-size: clamp(1.4rem, 3vw, 2.4rem); padding: 0.5rem 0; font-weight: 500; color: var(--panel-fg); transition: color 0.3s; }
+  .foot__marquee-in a:hover { color: var(--accent); }
+  .foot__star { color: var(--accent); margin: 0 1.2rem; font-size: 1rem; }
+
+  .foot__grid {
+    display: grid; grid-template-columns: 1.6fr 1fr 1fr; gap: 2.6rem;
+    padding-block: var(--sp-6) var(--sp-5);
+  }
+  @media (max-width: 820px) { .foot__grid { grid-template-columns: 1fr; gap: 2rem; } }
+  .foot__plaque { display: inline-flex; background: var(--panel-2); padding: 0.6rem 1rem; border-radius: var(--radius); border: 1.5px solid var(--panel-line); }
+  .foot__plaque img { height: 38px; width: auto; }
+  .foot__pitch { margin: 1.2rem 0 1.6rem; max-width: 42ch; color: var(--panel-fg-dim); font-size: 1rem; line-height: 1.6; }
+
+  .foot__h { font-family: var(--font-sans); font-size: 0.78rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--accent); margin-bottom: 1rem; font-weight: 600; }
+  .foot__col ul { list-style: none; padding: 0; display: grid; gap: 0.55rem; }
+  .foot__col a { font-family: var(--font-sans); font-size: 0.94rem; color: var(--panel-fg-dim); transition: color 0.3s, padding-left 0.3s; }
+  .foot__col a:hover { color: var(--accent); padding-left: 6px; }
+
+  .foot__bottom {
+    display: flex; align-items: center; justify-content: space-between; gap: 1rem; flex-wrap: wrap;
+    padding-block: 1.4rem; border-top: 1.5px solid var(--panel-line);
+    font-family: var(--font-sans); font-size: 0.78rem; color: var(--panel-fg-dim);
+  }
+  .foot__made { color: var(--accent); }
+  .foot__top { font-family: var(--font-sans); font-weight: 600; font-size: 0.78rem; color: var(--panel-fg); border: 1.5px solid var(--panel-line); border-radius: 100px; padding: 0.4em 0.9em; transition: background 0.3s, color 0.3s; }
+  .foot__top:hover { background: var(--accent); border-color: var(--accent); color: #14110C; }
+</style>

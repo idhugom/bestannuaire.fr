@@ -1,0 +1,22 @@
+# build output
+dist/
+.astro/
+
+# deps
+node_modules/
+
+# pipeline working files (kept out of git — large / regenerable)
+_assets/
+data/openai/
+data/batch_*.jsonl
+data/batch_output*.jsonl
+*.log
+
+# env & secrets
+.env
+.env.*
+.dev.vars
+
+# os
+.DS_Store
+Thumbs.db

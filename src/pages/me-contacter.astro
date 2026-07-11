@@ -1,0 +1,92 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHero from '../components/PageHero.astro';
+import { SITE } from '../lib/site';
+---
+<Base
+  title="Contact"
+  description={`Une question, une correction, une proposition ? Contactez la rédaction de ${SITE.name}.`}
+  canonicalPath="/me-contacter"
+>
+  <PageHero eyebrow="Écrivez-nous" title="Contact" description="Une question, une suggestion de sujet, une correction à signaler ? La rédaction vous lit." />
+
+  <section class="wrap contact">
+    <div class="contact__grid">
+      <form class="contact__form" data-contact>
+        <div class="field">
+          <label for="name">Votre nom</label>
+          <input id="name" name="name" type="text" required autocomplete="name" />
+        </div>
+        <div class="field">
+          <label for="email">Votre e-mail</label>
+          <input id="email" name="email" type="email" required autocomplete="email" />
+        </div>
+        <div class="field">
+          <label for="subject">Sujet</label>
+          <select id="subject" name="subject">
+            <option>Une question sur un dossier</option>
+            <option>Signaler une erreur</option>
+            <option>Proposer un sujet</option>
+            <option>Partenariat / presse</option>
+            <option>Exercer mes droits (RGPD)</option>
+            <option>Autre</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="message">Votre message</label>
+          <textarea id="message" name="message" rows="6" required></textarea>
+        </div>
+        <button type="submit" class="btn btn--accent">Envoyer le message →</button>
+        <p class="contact__hint" data-contact-hint>Votre logiciel de messagerie s'ouvrira avec le message pré-rempli.</p>
+      </form>
+
+      <aside class="contact__aside">
+        <h2 class="contact__h">Autres moyens</h2>
+        <p>Vous pouvez aussi écrire directement à&nbsp;:</p>
+        <a class="contact__mail" href={`mailto:${SITE.email}`}>{SITE.email}</a>
+        <hr class="rule" style="margin: 1.6rem 0;" />
+        <p class="contact__note">Nous répondons aux demandes sérieuses sous quelques jours ouvrés. Pour signaler une
+        erreur factuelle dans un dossier, précisez son titre&nbsp;: cela nous fait gagner un temps précieux.</p>
+      </aside>
+    </div>
+  </section>
+</Base>
+
+<script is:inline define:vars={{ EMAIL: SITE.email }}>
+  function wire() {
+    const form = document.querySelector('[data-contact]');
+    if (!form || form._bound) return;
+    form._bound = true;
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const d = new FormData(form);
+      const subject = `[Best Annuaire] ${d.get('subject')}`;
+      const body = `Nom : ${d.get('name')}\nE-mail : ${d.get('email')}\n\n${d.get('message')}`;
+      window.location.href = `mailto:${EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+      const hint = document.querySelector('[data-contact-hint]');
+      if (hint) hint.textContent = 'Merci ! Votre messagerie devrait s’ouvrir. Sinon, écrivez-nous directement à ' + EMAIL + '.';
+    });
+  }
+  document.addEventListener('astro:page-load', wire);
+  wire();
+</script>
+
+<style>
+  .contact { padding-top: 2.5rem; padding-bottom: 2rem; }
+  .contact__grid { display: grid; grid-template-columns: 1.5fr 1fr; gap: clamp(2rem, 4vw, 4rem); }
+  @media (max-width: 820px) { .contact__grid { grid-template-columns: 1fr; } }
+  .field { display: flex; flex-direction: column; gap: 0.5rem; margin-bottom: 1.4rem; }
+  .field label { font-family: var(--font-sans); font-weight: 600; font-size: 0.85rem; letter-spacing: 0.03em; }
+  .field input, .field select, .field textarea {
+    font-family: var(--font-sans); font-size: 1rem; padding: 0.85em 1em;
+    border: 1.5px solid var(--line-strong); border-radius: var(--radius); background: var(--card); color: var(--ink);
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  .field input:focus, .field select:focus, .field textarea:focus { outline: none; border-color: var(--accent); box-shadow: 3px 3px 0 var(--accent); }
+  .field textarea { resize: vertical; }
+  .contact__hint { font-family: var(--font-sans); font-size: 0.82rem; color: var(--ink-3); margin-top: 1rem; }
+  .contact__h { font-family: var(--font-display); font-size: var(--step-2); margin-bottom: 1rem; }
+  .contact__mail { font-family: var(--font-sans); font-weight: 600; font-size: 1.1rem; color: var(--accent-ink); display: inline-block; margin-top: 0.5rem; border-bottom: 2px solid var(--accent); }
+  :root[data-theme="dark"] .contact__mail { color: var(--accent); }
+  .contact__note { font-family: var(--font-serif); color: var(--ink-2); line-height: 1.6; }
+</style>

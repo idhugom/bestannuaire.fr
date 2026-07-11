@@ -1,0 +1,253 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import ArticleCard from '../components/ArticleCard.astro';
+import { SITE, RUBRIQUES, formatDate, rubriqueBySlug, articleUrl } from '../lib/site';
+
+const all = (await getCollection('articles')).sort(
+  (a, b) => +b.data.date - +a.data.date
+);
+
+const featured = all.filter((a) => a.data.featured);
+const lead = featured[0] ?? all[0];
+const rest = all.filter((a) => a !== lead);
+const secondary = rest.slice(0, 4);
+const latest = rest.slice(4, 16);
+
+// Compte par rubrique (pour l'index des rubriques)
+const counts = new Map<string, number>();
+for (const a of all) counts.set(a.data.rubrique, (counts.get(a.data.rubrique) ?? 0) + 1);
+
+const total = all.length;
+const rub = lead ? rubriqueBySlug(lead.data.rubrique) : null;
+---
+<Base title={SITE.name} description={SITE.description}>
+  <!-- ======================= MANCHETTE / HERO ======================= -->
+  <section class="cover">
+    <div class="wrap wrap--wide">
+      <div class="cover__top">
+        <p class="eyebrow">Édition {new Date().getFullYear()} · Le média</p>
+        <h1 class="cover__promise">
+          On lit <em>tout</em> l'internet.<br />On vous garde le <span class="mark">meilleur</span>.
+        </h1>
+        <p class="cover__sub">
+          {SITE.name} décrypte, compare et sélectionne les services, produits et démarches
+          qui comptent vraiment — {total > 0 ? `${total}` : '800'}+ dossiers passés au crible.
+        </p>
+      </div>
+
+      {lead && (
+        <div class="cover__grid">
+          <a href={articleUrl(lead.data.slug)} class="lead" data-reveal>
+            <div class="lead__media">
+              {lead.data.heroImage ? (
+                <img src={lead.data.heroImage} alt={lead.data.heroAlt || lead.data.title}
+                     width="1200" height="750" fetchpriority="high" />
+              ) : (
+                <div class="lead__ph" style={`--rub:${rub?.hue}`}><span>{lead.data.title.charAt(0)}</span></div>
+              )}
+              <span class="lead__badge">À la une</span>
+            </div>
+            <div class="lead__text">
+              <span class="tag tag--accent">{rub?.short}</span>
+              <h2 class="lead__title">{lead.data.title}</h2>
+              <p class="lead__chapo">{lead.data.chapo}</p>
+              <span class="lead__meta">{formatDate(lead.data.date)} · {lead.data.readingTime} min de lecture</span>
+            </div>
+          </a>
+
+          <aside class="cover__aside" aria-label="Autres unes">
+            <p class="cover__aside-h">Également à la une</p>
+            <ol class="frontlist">
+              {secondary.map((a, i) => (
+                <li class="frontlist__item" data-reveal style={`--reveal-delay:${i * 80}ms`}>
+                  <a href={articleUrl(a.data.slug)}>
+                    <span class="frontlist__n">{String(i + 1).padStart(2, '0')}</span>
+                    <span class="frontlist__body">
+                      <span class="frontlist__rub">{rubriqueBySlug(a.data.rubrique).short}</span>
+                      <span class="frontlist__title">{a.data.title}</span>
+                      <span class="frontlist__meta">{a.data.readingTime} min</span>
+                    </span>
+                  </a>
+                </li>
+              ))}
+            </ol>
+          </aside>
+        </div>
+      )}
+
+      {!lead && (
+        <div class="cover__empty">
+          <p>Les premiers dossiers arrivent — la rédaction met en ligne la nouvelle édition.</p>
+        </div>
+      )}
+    </div>
+  </section>
+
+  <!-- ======================= MARQUEE RUBRIQUES ======================= -->
+  <div class="ticker marquee" aria-hidden="true">
+    <div class="marquee__track" style="--marquee-dur: 46s">
+      {Array.from({ length: 2 }).map(() => (
+        <span class="ticker__in">
+          {RUBRIQUES.map((r) => (
+            <><a href={`/rubrique/${r.slug}`} class="ticker__item">{r.label}</a><span class="ticker__sep">✦</span></>
+          ))}
+        </span>
+      ))}
+    </div>
+  </div>
+
+  <!-- ======================= RUBRIQUES ======================= -->
+  <section class="wrap wrap--wide sect">
+    <div class="section-head">
+      <h2>Explorez par rubrique</h2>
+      <a href="/rubriques" class="more">Toutes les rubriques</a>
+    </div>
+    <div class="rubgrid">
+      {RUBRIQUES.map((r, i) => (
+        <a href={`/rubrique/${r.slug}`} class="rubcard" data-reveal
+           style={`--rub:${r.hue}; --reveal-delay:${Math.min(i * 45, 400)}ms`}>
+          <span class="rubcard__icon">{r.icon}</span>
+          <span class="rubcard__label">{r.label}</span>
+          <span class="rubcard__count">{counts.get(r.slug) ?? 0} dossier{(counts.get(r.slug) ?? 0) > 1 ? 's' : ''}</span>
+          <span class="rubcard__arrow">→</span>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <!-- ======================= DERNIERS DOSSIERS ======================= -->
+  {latest.length > 0 && (
+    <section class="wrap wrap--wide sect">
+      <div class="section-head">
+        <h2>Les derniers dossiers</h2>
+        <a href="/articles" class="more">Tout voir</a>
+      </div>
+      <div class="grid-articles">
+        {latest.map((a, i) => (<ArticleCard article={a} index={i} />))}
+      </div>
+    </section>
+  )}
+
+  <!-- ======================= MANIFESTE ======================= -->
+  <section class="manifesto">
+    <div class="wrap wrap--wide">
+      <p class="eyebrow" style="color: var(--accent)">Notre promesse</p>
+      <p class="manifesto__text">
+        Pas de listing sans âme. Chaque dossier est <strong>réécrit, vérifié et structuré</strong>
+        pour répondre à votre question — <em>vraiment</em>.
+      </p>
+      <div class="manifesto__stats">
+        <div><span class="manifesto__num">{total || '800'}+</span><span>dossiers</span></div>
+        <div><span class="manifesto__num">12</span><span>rubriques</span></div>
+        <div><span class="manifesto__num">100%</span><span>servi depuis l'edge</span></div>
+      </div>
+      <a href="/articles" class="btn btn--accent">Parcourir tous les dossiers</a>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .cover { padding-top: clamp(2rem, 5vw, 4.5rem); }
+  .cover__top { max-width: 22ch; }
+  .cover__top { max-width: none; }
+  .cover__promise {
+    font-size: var(--step-5); line-height: 0.95; letter-spacing: -0.03em;
+    margin: 0.6rem 0 0; max-width: 16ch;
+  }
+  .cover__promise em { font-style: italic; color: var(--accent-ink); }
+  :root[data-theme="dark"] .cover__promise em { color: var(--accent); }
+  .cover__promise .mark { position: relative; white-space: nowrap; }
+  .cover__promise .mark::after {
+    content: ""; position: absolute; left: -2%; right: -2%; bottom: 0.08em; height: 0.16em;
+    background: var(--accent); z-index: -1; transform: scaleX(0); transform-origin: left;
+    animation: underline 1.1s 0.4s var(--ease) forwards;
+  }
+  @keyframes underline { to { transform: scaleX(1); } }
+  @media (prefers-reduced-motion: reduce) { .cover__promise .mark::after { transform: scaleX(1); animation: none; } }
+  .cover__sub { font-size: var(--step-1); color: var(--ink-2); max-width: 52ch; margin-top: 1.2rem; line-height: 1.45; }
+
+  .cover__grid {
+    display: grid; grid-template-columns: 1.65fr 1fr; gap: clamp(1.5rem, 3vw, 3rem);
+    margin-top: clamp(2rem, 4vw, 3.4rem);
+    align-items: start;
+  }
+  @media (max-width: 900px) { .cover__grid { grid-template-columns: 1fr; } }
+
+  .lead { display: block; }
+  .lead__media {
+    position: relative; border: 1.5px solid var(--line-strong); border-radius: var(--radius);
+    overflow: hidden; aspect-ratio: 16 / 10;
+    transition: transform 0.5s var(--ease), box-shadow 0.5s var(--ease);
+  }
+  .lead:hover .lead__media { transform: translate(-5px,-5px); box-shadow: var(--hard-shadow); }
+  .lead__media img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.8s var(--ease); }
+  .lead:hover .lead__media img { transform: scale(1.05); }
+  .lead__ph { width:100%; height:100%; display:grid; place-items:center;
+    background: radial-gradient(120% 120% at 0 0, color-mix(in srgb, var(--rub) 50%, var(--paper)), var(--paper-2)); }
+  .lead__ph span { font-family: var(--font-display); font-size: 7rem; color: var(--rub); opacity:.55; }
+  .lead__badge {
+    position: absolute; top: 1rem; left: 1rem; background: var(--accent); color: #fff;
+    font-family: var(--font-sans); font-weight: 700; font-size: 0.72rem; letter-spacing: 0.1em;
+    text-transform: uppercase; padding: 0.4em 0.8em; border-radius: 100px;
+  }
+  :root[data-theme="dark"] .lead__badge { color:#14110C; }
+  .lead__text { margin-top: 1.2rem; display: flex; flex-direction: column; gap: 0.7rem; align-items: flex-start; }
+  .lead__title { font-size: var(--step-3); line-height: 1.02; }
+  .lead:hover .lead__title { color: var(--accent-ink); }
+  :root[data-theme="dark"] .lead:hover .lead__title { color: var(--accent); }
+  .lead__chapo { font-size: 1.1rem; color: var(--ink-2); max-width: 60ch; }
+  .lead__meta { font-family: var(--font-sans); font-size: 0.8rem; color: var(--ink-3); }
+
+  .cover__aside-h { font-family: var(--font-sans); font-weight: 600; font-size: 0.78rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--accent-ink); padding-bottom: 0.8rem; border-bottom: 2px solid var(--line-strong); }
+  :root[data-theme="dark"] .cover__aside-h { color: var(--accent); }
+  .frontlist { list-style: none; padding: 0; margin: 0; }
+  .frontlist__item a { display: flex; gap: 0.9rem; padding: 1.05rem 0; border-bottom: 1px solid var(--line); }
+  .frontlist__n { font-family: var(--font-display); font-size: 1.4rem; color: var(--accent); line-height: 1; }
+  .frontlist__body { display: flex; flex-direction: column; gap: 0.25rem; }
+  .frontlist__rub { font-family: var(--font-sans); font-size: 0.68rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-3); }
+  .frontlist__title { font-family: var(--font-display); font-size: 1.12rem; line-height: 1.12; transition: color 0.3s; }
+  .frontlist__item a:hover .frontlist__title { color: var(--accent-ink); }
+  :root[data-theme="dark"] .frontlist__item a:hover .frontlist__title { color: var(--accent); }
+  .frontlist__meta { font-family: var(--font-sans); font-size: 0.72rem; color: var(--ink-3); }
+  .cover__empty { margin: 3rem 0; padding: 2rem; border: 1.5px dashed var(--line-strong); border-radius: var(--radius); font-family: var(--font-sans); }
+
+  /* Ticker */
+  .ticker { margin-top: clamp(2.5rem, 5vw, 4rem); border-block: 2px solid var(--line-strong); background: var(--panel); color: var(--panel-fg); }
+  .ticker__in { display: inline-flex; align-items: center; }
+  .ticker__item { font-family: var(--font-display); font-size: clamp(1.1rem, 2vw, 1.7rem); padding: 0.7rem 0; font-weight: 500; transition: color 0.3s; }
+  .ticker__item:hover { color: var(--accent); }
+  .ticker__sep { color: var(--accent); margin: 0 1.4rem; }
+
+  .sect { margin-top: clamp(3.5rem, 7vw, 6rem); }
+
+  /* Rubgrid */
+  .rubgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 0.9rem; }
+  .rubcard {
+    position: relative; display: flex; flex-direction: column; gap: 0.3rem;
+    padding: 1.3rem; border: 1.5px solid var(--line-strong); border-radius: var(--radius);
+    background: var(--card); overflow: hidden; min-height: 140px;
+    transition: transform 0.4s var(--ease), box-shadow 0.4s var(--ease), background 0.4s var(--ease);
+  }
+  .rubcard::before { content: ""; position: absolute; inset: 0 auto 0 0; width: 5px; background: var(--rub); transition: width 0.4s var(--ease); }
+  .rubcard:hover { transform: translate(-4px,-4px); box-shadow: var(--hard-shadow-sm); }
+  .rubcard:hover::before { width: 100%; opacity: 0.12; }
+  .rubcard__icon { font-family: var(--font-display); font-size: 1.8rem; color: var(--rub); line-height: 1; }
+  .rubcard__label { font-family: var(--font-display); font-size: 1.28rem; letter-spacing: -0.01em; line-height: 1.05; margin-top: auto; }
+  .rubcard__count { font-family: var(--font-sans); font-size: 0.76rem; color: var(--ink-3); }
+  .rubcard__arrow { position: absolute; right: 1.1rem; top: 1.1rem; color: var(--rub); font-size: 1.2rem; opacity: 0; transform: translateX(-6px); transition: opacity 0.3s, transform 0.3s; }
+  .rubcard:hover .rubcard__arrow { opacity: 1; transform: none; }
+
+  /* Grille articles */
+  .grid-articles { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: clamp(1.4rem, 2.5vw, 2.4rem); }
+
+  /* Manifeste */
+  .manifesto { margin-top: clamp(4rem, 8vw, 7rem); background: var(--panel); color: var(--panel-fg); padding-block: clamp(3.5rem, 7vw, 6rem); border-block: 2px solid var(--line-strong); }
+  .manifesto__text { font-family: var(--font-display); font-size: var(--step-3); line-height: 1.1; max-width: 24ch; margin: 1rem 0 2.4rem; }
+  .manifesto__text strong { color: var(--accent); font-weight: 560; }
+  .manifesto__text em { color: var(--gold); }
+  .manifesto__stats { display: flex; gap: clamp(2rem, 5vw, 4rem); flex-wrap: wrap; margin-bottom: 2.4rem; }
+  .manifesto__stats > div { display: flex; flex-direction: column; }
+  .manifesto__num { font-family: var(--font-display); font-size: var(--step-4); color: var(--accent); line-height: 1; }
+  .manifesto__stats span:last-child { font-family: var(--font-sans); font-size: 0.82rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--panel-fg-dim); }
+</style>

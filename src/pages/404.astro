@@ -1,0 +1,30 @@
+---
+import Base from '../layouts/Base.astro';
+import { RUBRIQUES, rubriqueUrl } from '../lib/site';
+---
+<Base title="Page introuvable (404)" description="Cette page n'existe pas ou plus." noindex={true}>
+  <section class="wrap wrap--narrow nf">
+    <p class="nf__code">404</p>
+    <h1 class="nf__title">Cette page a filé à l'anglaise.</h1>
+    <p class="nf__sub">Le dossier que vous cherchez n'existe pas, plus, ou a changé d'adresse.
+      Reprenons depuis un point sûr.</p>
+    <div class="nf__actions">
+      <a href="/" class="btn btn--accent">Retour à l'accueil</a>
+      <a href="/recherche" class="btn btn--ghost">Rechercher un dossier</a>
+    </div>
+    <div class="nf__rubs">
+      {RUBRIQUES.map((r) => (<a href={rubriqueUrl(r.slug)} class="nf__chip" style={`--rub:${r.hue}`}>{r.label}</a>))}
+    </div>
+  </section>
+</Base>
+
+<style>
+  .nf { padding: clamp(3rem, 8vw, 7rem) 0; text-align: center; }
+  .nf__code { font-family: var(--font-display); font-size: var(--step-6); line-height: 0.9; color: var(--accent); letter-spacing: -0.04em; }
+  .nf__title { font-size: var(--step-3); margin: 1rem 0; }
+  .nf__sub { font-family: var(--font-serif); font-size: var(--step-1); color: var(--ink-2); max-width: 46ch; margin: 0 auto 2rem; }
+  .nf__actions { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-bottom: 3rem; }
+  .nf__rubs { display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: center; }
+  .nf__chip { font-family: var(--font-sans); font-size: 0.82rem; font-weight: 600; padding: 0.45em 0.9em; border: 1.5px solid var(--line-strong); border-radius: 100px; transition: background 0.3s, color 0.3s; }
+  .nf__chip:hover { background: var(--rub); color: #fff; border-color: var(--rub); }
+</style>

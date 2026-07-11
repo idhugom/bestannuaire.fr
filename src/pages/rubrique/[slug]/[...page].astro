@@ -1,0 +1,87 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../../layouts/Base.astro';
+import PageHero from '../../../components/PageHero.astro';
+import ArticleCard from '../../../components/ArticleCard.astro';
+import Pager from '../../../components/Pager.astro';
+import { SITE, RUBRIQUES, rubriqueBySlug, rubriqueUrl } from '../../../lib/site';
+
+export async function getStaticPaths() {
+  const all = (await getCollection('articles')).sort((a, b) => +b.data.date - +a.data.date);
+  const size = 24;
+  const paths: any[] = [];
+  for (const r of RUBRIQUES) {
+    const items = all.filter((a) => a.data.rubrique === r.slug);
+    const total = Math.max(1, Math.ceil(items.length / size));
+    for (let i = 0; i < total; i++) {
+      const page = i + 1;
+      paths.push({
+        params: { slug: r.slug, page: page === 1 ? undefined : String(page) },
+        props: {
+          rubSlug: r.slug,
+          items: items.slice(i * size, i * size + size),
+          current: page,
+          total,
+          totalItems: items.length,
+        },
+      });
+    }
+  }
+  return paths;
+}
+
+const { rubSlug, items, current, total, totalItems } = Astro.props;
+const rub = rubriqueBySlug(rubSlug);
+const canonicalPath = current === 1 ? rubriqueUrl(rub.slug) : `/rubrique/${rub.slug}/${current}`;
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: `${rub.label} — ${SITE.name}`,
+  description: rub.desc,
+  url: new URL(canonicalPath, SITE.url).href,
+  isPartOf: { '@type': 'WebSite', name: SITE.name, url: SITE.url },
+};
+---
+<Base
+  title={current === 1 ? rub.label : `${rub.label} — page ${current}`}
+  description={rub.desc}
+  canonicalPath={canonicalPath}
+  jsonLd={jsonLd}
+>
+  <PageHero eyebrow="Rubrique" title={rub.label} description={rub.desc} accent={rub.hue} count={totalItems} />
+
+  <section class="wrap wrap--wide" style="padding-top: 2.4rem;">
+    {items.length > 0 ? (
+      <div class="grid-articles">
+        {items.map((a, i) => (<ArticleCard article={a} index={i} eager={i < 4} />))}
+      </div>
+    ) : (
+      <div class="rub-empty">
+        <p>Cette rubrique se remplit — la rédaction publie de nouveaux dossiers chaque semaine.</p>
+        <a href="/articles" class="btn btn--accent">Voir tous les dossiers</a>
+      </div>
+    )}
+    <Pager current={current} total={total} basePath={`/rubrique/${rub.slug}`} />
+  </section>
+
+  <!-- Autres rubriques -->
+  <section class="wrap wrap--wide otherrubs">
+    <div class="section-head"><h2>Autres rubriques</h2></div>
+    <div class="otherrubs__row">
+      {RUBRIQUES.filter((r) => r.slug !== rub.slug).map((r) => (
+        <a href={rubriqueUrl(r.slug)} class="chip" style={`--rub:${r.hue}`}>{r.label}</a>
+      ))}
+    </div>
+  </section>
+</Base>
+
+<style>
+  .grid-articles { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: clamp(1.4rem, 2.5vw, 2.4rem); }
+  .rub-empty { padding: 3rem 0; display: flex; flex-direction: column; gap: 1.4rem; align-items: flex-start; font-family: var(--font-serif); font-size: 1.15rem; color: var(--ink-2); }
+  .otherrubs { margin-top: clamp(3.5rem, 7vw, 5.5rem); }
+  .otherrubs__row { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+  .chip { font-family: var(--font-sans); font-weight: 600; font-size: 0.9rem; padding: 0.55em 1.1em; border: 1.5px solid var(--line-strong); border-radius: 100px; position: relative; transition: background 0.3s, color 0.3s, transform 0.3s; }
+  .chip::before { content: ""; display: inline-block; width: 0.7em; height: 0.7em; border-radius: 50%; background: var(--rub); margin-right: 0.5em; vertical-align: middle; }
+  .chip:hover { transform: translateY(-3px); background: var(--ink); color: var(--paper); }
+</style>

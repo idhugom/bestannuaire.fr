@@ -1,0 +1,106 @@
+---
+import { formatDate, rubriqueBySlug, articleUrl } from '../lib/site';
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  article: CollectionEntry<'articles'>;
+  variant?: 'featured' | 'standard' | 'compact' | 'text';
+  index?: number;
+  eager?: boolean;
+}
+const { article, variant = 'standard', index = 0, eager = false } = Astro.props;
+const d = article.data;
+const rub = rubriqueBySlug(d.rubrique);
+const url = articleUrl(d.slug);
+const img = variant === 'featured' ? d.heroImage : d.heroImageSm || d.heroImage;
+const initial = (d.title || '?').trim().charAt(0).toUpperCase();
+---
+<article
+  class:list={['card', `card--${variant}`]}
+  data-reveal
+  style={`--reveal-delay:${Math.min(index * 60, 360)}ms; --rub:${rub.hue}`}
+>
+  <a href={url} class="card__link" aria-label={d.title}>
+    <div class="card__media">
+      {img ? (
+        <img src={img} alt={d.heroAlt || d.title} loading={eager ? 'eager' : 'lazy'} decoding="async"
+             width="800" height="533" class="card__img" />
+      ) : (
+        <div class="card__placeholder" aria-hidden="true"><span>{initial}</span></div>
+      )}
+      <span class="card__rub">{rub.short}</span>
+    </div>
+    <div class="card__body">
+      <h3 class="card__title">{d.title}</h3>
+      {variant !== 'compact' && <p class="card__chapo">{d.chapo}</p>}
+      <div class="card__meta">
+        <span>{formatDate(d.date)}</span>
+        <span class="card__dot">•</span>
+        <span>{d.readingTime} min</span>
+      </div>
+    </div>
+  </a>
+</article>
+
+<style>
+  .card { position: relative; }
+  .card__link { display: flex; flex-direction: column; height: 100%; }
+
+  .card__media {
+    position: relative; overflow: hidden; border: 1.5px solid var(--line-strong);
+    border-radius: var(--radius); background: var(--paper-2);
+    aspect-ratio: 3 / 2;
+    transition: transform 0.5s var(--ease), box-shadow 0.5s var(--ease);
+  }
+  .card__img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.7s var(--ease); }
+  .card__link:hover .card__media { transform: translate(-4px,-4px); box-shadow: var(--hard-shadow); }
+  .card__link:hover .card__img { transform: scale(1.06); }
+
+  .card__placeholder {
+    width: 100%; height: 100%; display: grid; place-items: center;
+    background:
+      radial-gradient(120% 120% at 0% 0%, color-mix(in srgb, var(--rub) 45%, var(--paper)) 0%, var(--paper-2) 60%);
+  }
+  .card__placeholder span { font-family: var(--font-display); font-size: 4rem; color: var(--rub); opacity: 0.6; }
+
+  .card__rub {
+    position: absolute; left: 0.7rem; top: 0.7rem;
+    font-family: var(--font-sans); font-weight: 700; font-size: 0.68rem;
+    letter-spacing: 0.08em; text-transform: uppercase;
+    padding: 0.3em 0.65em; border-radius: 100px;
+    background: var(--paper); color: var(--ink); border: 1.5px solid var(--line-strong);
+  }
+
+  .card__body { padding-top: 0.85rem; display: flex; flex-direction: column; gap: 0.4rem; flex: 1; }
+  .card__title {
+    font-family: var(--font-display); line-height: 1.08; letter-spacing: -0.015em;
+    font-size: var(--step-1); font-weight: 550;
+    transition: color 0.3s;
+  }
+  .card__link:hover .card__title { color: var(--accent-ink); }
+  :root[data-theme="dark"] .card__link:hover .card__title { color: var(--accent); }
+  .card__chapo { font-size: 0.98rem; color: var(--ink-2); line-height: 1.5; }
+  .card__meta {
+    margin-top: auto; padding-top: 0.5rem;
+    font-family: var(--font-sans); font-size: 0.76rem; color: var(--ink-3);
+    display: flex; align-items: center; gap: 0.5em; letter-spacing: 0.02em;
+  }
+  .card__dot { color: var(--accent); }
+
+  /* — Featured : grande carte — */
+  .card--featured .card__media { aspect-ratio: 16 / 10; }
+  .card--featured .card__title { font-size: var(--step-3); }
+  .card--featured .card__chapo { font-size: 1.1rem; }
+
+  /* — Compact : titre + méta, image plus petite — */
+  .card--compact .card__media { aspect-ratio: 3 / 2; }
+  .card--compact .card__title { font-size: var(--step-0); }
+
+  /* — Text : sans image, style « une » — */
+  .card--text .card__media { display: none; }
+  .card--text { border-top: 2px solid var(--line-strong); padding-top: 0.9rem; }
+  .card--text .card__title { font-size: var(--step-1); }
+  .card--text .card__title::before {
+    content: attr(data-n); color: var(--accent); font-family: var(--font-sans);
+  }
+</style>

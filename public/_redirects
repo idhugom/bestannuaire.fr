@@ -1,0 +1,11 @@
+# Redirections héritées de l'ancien site WordPress -> nouvelle structure.
+# NB : Cloudflare Pages redirige déjà automatiquement /slug.html -> /slug (308),
+# les permaliens d'articles restent donc valides sans configuration.
+
+/category/infos      /articles     301
+/category/featured   /rubriques    301
+/category/*          /rubriques    301
+/feed                /rss.xml      301
+/feed/               /rss.xml      301
+/home                /             301
+/home.html           /             301

@@ -1,0 +1,76 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHero from '../components/PageHero.astro';
+import { SITE } from '../lib/site';
+---
+<Base
+  title="Recherche"
+  description={`Recherchez parmi tous les dossiers de ${SITE.name} : tapez un mot-clé, une marque, une démarche.`}
+  canonicalPath="/recherche"
+  noindex={true}
+>
+  <PageHero eyebrow="Trouver" title="Rechercher un dossier" description="Un mot-clé, une question, un besoin : la rédaction a probablement déjà écrit dessus." />
+
+  <section class="wrap wrap--narrow searchsect">
+    <div id="search" class="searchbox"></div>
+    <noscript><p class="search-noscript">La recherche nécessite JavaScript. Parcourez plutôt <a href="/rubriques">les rubriques</a>.</p></noscript>
+  </section>
+</Base>
+
+<link rel="stylesheet" href="/pagefind/pagefind-ui.css" />
+<script is:inline src="/pagefind/pagefind-ui.js"></script>
+<script is:inline>
+  function boot() {
+    if (typeof PagefindUI === 'undefined') { return setTimeout(boot, 120); }
+    if (document.querySelector('#search .pagefind-ui__form')) return;
+    new PagefindUI({
+      element: '#search',
+      showImages: true,
+      showSubResults: true,
+      resetStyles: false,
+      translations: {
+        placeholder: 'Rechercher un dossier, une marque, une démarche…',
+        clear_search: 'Effacer',
+        load_more: 'Voir plus de résultats',
+        search_label: 'Rechercher',
+        filters_label: 'Filtres',
+        zero_results: 'Aucun résultat pour « [SEARCH_TERM] »',
+        many_results: '[COUNT] résultats pour « [SEARCH_TERM] »',
+        one_result: '[COUNT] résultat pour « [SEARCH_TERM] »',
+        alt_search: 'Aucun résultat pour « [SEARCH_TERM] ». Résultats pour « [DIFFERENT_TERM] » à la place :',
+        search_suggestion: 'Aucun résultat pour « [SEARCH_TERM] ». Essayez l’une de ces recherches :',
+        searching: 'Recherche de « [SEARCH_TERM] »…',
+      },
+    });
+    // Pré-remplissage depuis ?q=
+    var q = new URLSearchParams(location.search).get('q');
+    if (q) {
+      var input = document.querySelector('#search input');
+      if (input) { input.value = q; input.dispatchEvent(new Event('input', { bubbles: true })); }
+    }
+  }
+  document.addEventListener('astro:page-load', boot);
+  boot();
+</script>
+
+<style is:global>
+  .searchsect { padding-top: 2.5rem; padding-bottom: 4rem; min-height: 50vh; }
+  .search-noscript { font-family: var(--font-sans); color: var(--ink-2); }
+  :root {
+    --pagefind-ui-scale: 1;
+    --pagefind-ui-primary: var(--accent-ink);
+    --pagefind-ui-text: var(--ink);
+    --pagefind-ui-background: var(--card);
+    --pagefind-ui-border: var(--line-strong);
+    --pagefind-ui-tag: var(--paper-2);
+    --pagefind-ui-border-width: 1.5px;
+    --pagefind-ui-border-radius: 6px;
+    --pagefind-ui-font: var(--font-sans);
+  }
+  :root[data-theme="dark"] { --pagefind-ui-primary: var(--accent); }
+  .pagefind-ui__search-input { font-family: var(--font-display) !important; font-size: 1.3rem !important; background: var(--card) !important; }
+  .pagefind-ui__result { border-bottom: 1.5px solid var(--line); padding: 1.2rem 0; }
+  .pagefind-ui__result-title { font-family: var(--font-display) !important; }
+  .pagefind-ui__result-link { color: var(--ink) !important; }
+  .pagefind-ui__result-link:hover { color: var(--accent-ink) !important; }
+</style>
