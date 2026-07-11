@@ -76,9 +76,8 @@ const ldData = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : baseLd;
     <link rel="canonical" href={canonical} />
     {noindex && <meta name="robots" content="noindex,nofollow" />}
 
-    <meta name="theme-color" content="#F4EFE4" media="(prefers-color-scheme: light)" />
-    <meta name="theme-color" content="#14110C" media="(prefers-color-scheme: dark)" />
-    <meta name="color-scheme" content="light dark" />
+    <meta name="theme-color" content="#295365" />
+    <meta name="color-scheme" content="light" />
 
     <!-- Open Graph -->
     <meta property="og:type" content={type} />
@@ -102,17 +101,6 @@ const ldData = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : baseLd;
     <link rel="apple-touch-icon" href="/img/apple-touch-icon.png" />
     <link rel="alternate" type="application/rss+xml" title={`${SITE.name} — flux RSS`} href="/rss.xml" />
     <link rel="sitemap" href="/sitemap-index.xml" />
-
-    <script is:inline>
-      // Thème : appliqué avant le premier rendu pour éviter tout flash.
-      (function () {
-        try {
-          var t = localStorage.getItem('ba-theme');
-          if (!t) t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-          document.documentElement.setAttribute('data-theme', t);
-        } catch (e) {}
-      })();
-    </script>
 
     <set:html value={`<script type="application/ld+json">${JSON.stringify(ldData)}</script>`} />
 

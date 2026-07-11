@@ -1,24 +1,6 @@
 // Interactions globales — légères, sans dépendance.
 // Ré-exécutées à chaque navigation (View Transitions => astro:page-load).
 
-function applyTheme(t: string) {
-  document.documentElement.setAttribute('data-theme', t);
-  try { localStorage.setItem('ba-theme', t); } catch (e) {}
-  const meta = document.querySelector('meta[name="theme-color"]');
-  if (meta) meta.setAttribute('content', t === 'dark' ? '#14110C' : '#F4EFE4');
-}
-
-function initTheme() {
-  document.querySelectorAll('[data-theme-toggle]').forEach((btn) => {
-    if ((btn as any)._bound) return;
-    (btn as any)._bound = true;
-    btn.addEventListener('click', () => {
-      const cur = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
-      applyTheme(cur === 'dark' ? 'light' : 'dark');
-    });
-  });
-}
-
 function initReveal() {
   const els = document.querySelectorAll('[data-reveal]:not(.is-in)');
   if (!('IntersectionObserver' in window) || matchMedia('(prefers-reduced-motion: reduce)').matches) {
@@ -140,7 +122,6 @@ function initShare() {
 }
 
 function initAll() {
-  initTheme();
   initReveal();
   initHeader();
   initBurger();
@@ -151,9 +132,5 @@ function initAll() {
 }
 
 document.addEventListener('astro:page-load', initAll);
-document.addEventListener('astro:after-swap', () => {
-  const t = (() => { try { return localStorage.getItem('ba-theme'); } catch { return null; } })();
-  if (t) document.documentElement.setAttribute('data-theme', t);
-});
 if (document.readyState !== 'loading') initAll();
 else document.addEventListener('DOMContentLoaded', initAll);

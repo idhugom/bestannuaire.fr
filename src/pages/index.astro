@@ -90,7 +90,7 @@ const rub = lead ? rubriqueBySlug(lead.data.rubrique) : null;
       {Array.from({ length: 2 }).map(() => (
         <span class="ticker__in">
           {RUBRIQUES.map((r) => (
-            <><a href={`/rubrique/${r.slug}`} class="ticker__item">{r.label}</a><span class="ticker__sep">✦</span></>
+            <><a href={`/rubrique/${r.slug}`} class="ticker__item">{r.label}</a><span class="ticker__sep">♛</span></>
           ))}
         </span>
       ))}
@@ -156,7 +156,6 @@ const rub = lead ? rubriqueBySlug(lead.data.rubrique) : null;
     margin: 0.6rem 0 0; max-width: 16ch;
   }
   .cover__promise em { font-style: italic; color: var(--accent-ink); }
-  :root[data-theme="dark"] .cover__promise em { color: var(--accent); }
   .cover__promise .mark { position: relative; white-space: nowrap; }
   .cover__promise .mark::after {
     content: ""; position: absolute; left: -2%; right: -2%; bottom: 0.08em; height: 0.16em;
@@ -187,20 +186,17 @@ const rub = lead ? rubriqueBySlug(lead.data.rubrique) : null;
     background: radial-gradient(120% 120% at 0 0, color-mix(in srgb, var(--rub) 50%, var(--paper)), var(--paper-2)); }
   .lead__ph span { font-family: var(--font-display); font-size: 7rem; color: var(--rub); opacity:.55; }
   .lead__badge {
-    position: absolute; top: 1rem; left: 1rem; background: var(--accent); color: #fff;
+    position: absolute; top: 1rem; left: 1rem; background: var(--accent); color: var(--on-accent);
     font-family: var(--font-sans); font-weight: 700; font-size: 0.72rem; letter-spacing: 0.1em;
     text-transform: uppercase; padding: 0.4em 0.8em; border-radius: 100px;
   }
-  :root[data-theme="dark"] .lead__badge { color:#14110C; }
   .lead__text { margin-top: 1.2rem; display: flex; flex-direction: column; gap: 0.7rem; align-items: flex-start; }
   .lead__title { font-size: var(--step-3); line-height: 1.02; }
   .lead:hover .lead__title { color: var(--accent-ink); }
-  :root[data-theme="dark"] .lead:hover .lead__title { color: var(--accent); }
   .lead__chapo { font-size: 1.1rem; color: var(--ink-2); max-width: 60ch; }
   .lead__meta { font-family: var(--font-sans); font-size: 0.8rem; color: var(--ink-3); }
 
   .cover__aside-h { font-family: var(--font-sans); font-weight: 600; font-size: 0.78rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--accent-ink); padding-bottom: 0.8rem; border-bottom: 2px solid var(--line-strong); }
-  :root[data-theme="dark"] .cover__aside-h { color: var(--accent); }
   .frontlist { list-style: none; padding: 0; margin: 0; }
   .frontlist__item a { display: flex; gap: 0.9rem; padding: 1.05rem 0; border-bottom: 1px solid var(--line); }
   .frontlist__n { font-family: var(--font-display); font-size: 1.4rem; color: var(--accent); line-height: 1; }
@@ -208,16 +204,15 @@ const rub = lead ? rubriqueBySlug(lead.data.rubrique) : null;
   .frontlist__rub { font-family: var(--font-sans); font-size: 0.68rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-3); }
   .frontlist__title { font-family: var(--font-display); font-size: 1.12rem; line-height: 1.12; transition: color 0.3s; }
   .frontlist__item a:hover .frontlist__title { color: var(--accent-ink); }
-  :root[data-theme="dark"] .frontlist__item a:hover .frontlist__title { color: var(--accent); }
   .frontlist__meta { font-family: var(--font-sans); font-size: 0.72rem; color: var(--ink-3); }
   .cover__empty { margin: 3rem 0; padding: 2rem; border: 1.5px dashed var(--line-strong); border-radius: var(--radius); font-family: var(--font-sans); }
 
   /* Ticker */
-  .ticker { margin-top: clamp(2.5rem, 5vw, 4rem); border-block: 2px solid var(--line-strong); background: var(--panel); color: var(--panel-fg); }
+  .ticker { margin-top: clamp(2.5rem, 5vw, 4rem); border-block: 3px solid var(--ink); background: var(--accent); color: var(--on-accent); }
   .ticker__in { display: inline-flex; align-items: center; }
   .ticker__item { font-family: var(--font-display); font-size: clamp(1.1rem, 2vw, 1.7rem); padding: 0.7rem 0; font-weight: 500; transition: color 0.3s; }
-  .ticker__item:hover { color: var(--accent); }
-  .ticker__sep { color: var(--accent); margin: 0 1.4rem; }
+  .ticker__item:hover { color: var(--blue); }
+  .ticker__sep { color: var(--blue); margin: 0 1.3rem; font-size: 0.9em; }
 
   .sect { margin-top: clamp(3.5rem, 7vw, 6rem); }
 

@@ -40,8 +40,7 @@ for (let i = from; i <= to; i++) win.push(i);
   .pager__pages { list-style: none; display: flex; gap: 0.35rem; padding: 0; align-items: center; }
   .pager__pages a { display: grid; place-items: center; min-width: 2.4rem; height: 2.4rem; padding: 0 0.5rem; border-radius: 100px; font-weight: 600; font-size: 0.9rem; transition: background 0.3s, color 0.3s; }
   .pager__pages a:hover { background: var(--paper-2); }
-  .pager__page.is-current { background: var(--accent); color: #fff; }
-  :root[data-theme="dark"] .pager__page.is-current { color: #14110C; }
+  .pager__page.is-current { background: var(--accent); color: var(--on-accent); }
   .pager__gap { color: var(--ink-3); padding: 0 0.2rem; }
   @media (max-width: 560px) { .pager__pages { display: none; } }
 </style>

@@ -1,27 +1,11 @@
 ---
 import { NAV, SITE } from '../lib/site';
-const now = new Date();
-const dateline = new Intl.DateTimeFormat('fr-FR', {
-  weekday: 'long', day: 'numeric', month: 'long', year: 'numeric',
-}).format(now);
 ---
 <header class="masthead" data-header>
-  <div class="masthead__strip">
-    <div class="wrap wrap--wide masthead__strip-in">
-      <span class="dateline">{dateline}</span>
-      <span class="masthead__slogan">{SITE.tagline}</span>
-      <button class="theme-toggle" data-theme-toggle aria-label="Changer de thème" title="Changer de thème">
-        <span class="theme-toggle__icon theme-toggle__icon--sun" aria-hidden="true">☀</span>
-        <span class="theme-toggle__icon theme-toggle__icon--moon" aria-hidden="true">☾</span>
-      </button>
-    </div>
-  </div>
-
   <div class="wrap wrap--wide masthead__bar">
     <a href="/" class="brand" aria-label={`${SITE.name} — accueil`}>
-      <span class="brand__plaque">
-        <img src="/img/logo.png" alt={SITE.name} width="730" height="181" fetchpriority="high" />
-      </span>
+      <span class="brand__seal" aria-hidden="true">♛</span>
+      <img class="brand__logo" src="/img/logo.png" alt={SITE.name} width="730" height="181" fetchpriority="high" />
     </a>
 
     <nav class="nav" aria-label="Navigation principale">
@@ -55,82 +39,56 @@ const dateline = new Intl.DateTimeFormat('fr-FR', {
 <style>
   .masthead {
     position: sticky; top: 0; z-index: 100;
-    background: color-mix(in srgb, var(--paper) 88%, transparent);
-    backdrop-filter: saturate(140%) blur(10px);
-    border-bottom: 2px solid var(--line-strong);
+    background: var(--blue);
+    color: var(--blue-fg);
+    border-bottom: 3px solid var(--accent);
     transition: transform 0.4s var(--ease), box-shadow 0.4s var(--ease);
   }
   [data-header].is-hidden { transform: translateY(-100%); }
-  [data-header].is-scrolled { box-shadow: 0 10px 30px -20px var(--shadow-col); }
-
-  .masthead__strip { border-bottom: 1.5px solid var(--line); font-family: var(--font-sans); }
-  .masthead__strip-in {
-    display: flex; align-items: center; justify-content: space-between; gap: 1rem;
-    height: 34px; font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase;
-    color: var(--ink-2);
-  }
-  .dateline { font-weight: 600; }
-  .masthead__slogan { display: none; font-style: normal; letter-spacing: 0.14em; color: var(--accent-ink); font-weight: 600; }
-  @media (min-width: 780px) { .masthead__slogan { display: inline; } }
-  :root[data-theme="dark"] .masthead__slogan { color: var(--accent); }
-
-  .theme-toggle {
-    position: relative; width: 34px; height: 22px; border-radius: 100px;
-    border: 1.5px solid var(--line-strong); background: var(--card);
-    display: inline-flex; align-items: center; overflow: hidden;
-  }
-  .theme-toggle__icon { position: absolute; font-size: 0.7rem; transition: transform 0.5s var(--ease), opacity 0.4s; }
-  .theme-toggle__icon--sun { left: 5px; }
-  .theme-toggle__icon--moon { right: 5px; opacity: 0; transform: translateY(14px); }
-  :root[data-theme="dark"] .theme-toggle__icon--sun { opacity: 0; transform: translateY(-14px); }
-  :root[data-theme="dark"] .theme-toggle__icon--moon { opacity: 1; transform: translateY(0); }
-  .theme-toggle::after {
-    content: ""; position: absolute; top: 1.5px; left: 1.5px; width: 16px; height: 16px;
-    border-radius: 50%; background: var(--accent); transition: transform 0.45s var(--ease-inout);
-  }
-  :root[data-theme="dark"] .theme-toggle::after { transform: translateX(12px); }
+  [data-header].is-scrolled { box-shadow: 0 12px 34px -18px rgba(0,0,0,0.6); }
 
   .masthead__bar {
     display: flex; align-items: center; justify-content: space-between; gap: 1.5rem;
-    padding-block: 0.7rem;
+    padding-block: 0.75rem;
   }
-  .brand { flex-shrink: 0; }
-  .brand__plaque {
-    display: inline-flex; align-items: center;
-    background: #14110C; padding: 0.5rem 0.9rem; border-radius: var(--radius);
-    border: 1.5px solid var(--line-strong);
-    box-shadow: var(--hard-shadow-sm);
-    transition: transform 0.4s var(--ease), box-shadow 0.4s var(--ease);
+
+  .brand { flex-shrink: 0; display: inline-flex; align-items: center; gap: 0.6rem; }
+  .brand__seal {
+    font-size: clamp(1.4rem, 3vw, 1.9rem); color: var(--accent); line-height: 1;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.25);
+    transition: transform 0.4s var(--ease);
   }
-  .brand:hover .brand__plaque { transform: translate(-2px,-2px); box-shadow: 6px 6px 0 var(--accent); }
-  .brand__plaque img { height: clamp(26px, 4.4vw, 40px); width: auto; }
+  .brand:hover .brand__seal { transform: rotate(-8deg) scale(1.08); }
+  .brand__logo { height: clamp(28px, 4.6vw, 44px); width: auto; }
 
   .nav { display: none; gap: clamp(0.6rem, 1.4vw, 1.6rem); flex-wrap: wrap; justify-content: center; }
   @media (min-width: 1024px) { .nav { display: flex; } }
   .nav__link {
     font-family: var(--font-sans); font-weight: 600; font-size: 0.86rem;
     letter-spacing: 0.02em; padding: 0.35em 0; position: relative; white-space: nowrap;
-    color: var(--ink);
+    color: var(--blue-fg);
   }
   .nav__link::after {
     content: ""; position: absolute; left: 0; bottom: -2px; height: 2.5px; width: 0;
     background: var(--accent); transition: width 0.35s var(--ease);
   }
+  .nav__link:hover { color: var(--accent); }
   .nav__link:hover::after { width: 100%; }
 
   .masthead__actions { display: flex; align-items: center; gap: 0.7rem; }
   .search-btn {
     display: inline-flex; align-items: center; gap: 0.5em;
     font-family: var(--font-sans); font-weight: 600; font-size: 0.82rem;
-    padding: 0.5em 0.9em; border: 1.5px solid var(--line-strong); border-radius: 100px;
-    background: var(--card); transition: background 0.35s var(--ease), color 0.35s var(--ease);
+    padding: 0.5em 0.95em; border: 1.5px solid var(--accent); border-radius: 100px;
+    background: transparent; color: var(--accent);
+    transition: background 0.35s var(--ease), color 0.35s var(--ease);
   }
   .search-btn span { display: none; }
   @media (min-width: 560px) { .search-btn span { display: inline; } }
-  .search-btn:hover { background: var(--ink); color: var(--paper); }
+  .search-btn:hover { background: var(--accent); color: var(--on-accent); }
 
-  .burger { display: inline-flex; flex-direction: column; gap: 4px; width: 34px; height: 34px; align-items: center; justify-content: center; border: 1.5px solid var(--line-strong); border-radius: var(--radius); }
-  .burger span { width: 18px; height: 2px; background: var(--ink); transition: transform 0.35s var(--ease), opacity 0.3s; }
+  .burger { display: inline-flex; flex-direction: column; gap: 4px; width: 34px; height: 34px; align-items: center; justify-content: center; border: 1.5px solid var(--blue-line); border-radius: var(--radius); }
+  .burger span { width: 18px; height: 2px; background: var(--blue-fg); transition: transform 0.35s var(--ease), opacity 0.3s; }
   .burger[aria-expanded="true"] span:nth-child(1) { transform: translateY(6px) rotate(45deg); }
   .burger[aria-expanded="true"] span:nth-child(2) { opacity: 0; }
   .burger[aria-expanded="true"] span:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
@@ -139,13 +97,13 @@ const dateline = new Intl.DateTimeFormat('fr-FR', {
   .mobile-nav {
     display: grid; grid-template-rows: 0fr;
     transition: grid-template-rows 0.45s var(--ease);
+    background: var(--blue-2); color: var(--blue-fg);
   }
   .mobile-nav__inner { min-height: 0; overflow: hidden; }
-  .mobile-nav.is-open { grid-template-rows: 1fr; border-top: 1.5px solid var(--line); }
+  .mobile-nav.is-open { grid-template-rows: 1fr; }
   .mobile-nav__link {
     display: block; padding: 0.9rem var(--gutter); font-family: var(--font-sans); font-weight: 600;
-    border-bottom: 1px solid var(--line);
+    border-bottom: 1px solid var(--blue-line); color: var(--blue-fg);
   }
-  .mobile-nav__link--accent { color: var(--accent-ink); }
-  :root[data-theme="dark"] .mobile-nav__link--accent { color: var(--accent); }
+  .mobile-nav__link--accent { color: var(--accent); }
 </style>

@@ -7,7 +7,7 @@ const year = new Date().getFullYear();
     <div class="marquee__track" style="--marquee-dur: 32s">
       {Array.from({ length: 2 }).map(() => (
         <span class="foot__marquee-in">
-          {RUBRIQUES.map((r) => (<><a href={`/rubrique/${r.slug}`}>{r.label}</a><span class="foot__star">✦</span></>))}
+          {RUBRIQUES.map((r) => (<><a href={`/rubrique/${r.slug}`}>{r.label}</a><span class="foot__star">⚜</span></>))}
         </span>
       ))}
     </div>
@@ -71,5 +71,5 @@ const year = new Date().getFullYear();
   }
   .foot__made { color: var(--accent); }
   .foot__top { font-family: var(--font-sans); font-weight: 600; font-size: 0.78rem; color: var(--panel-fg); border: 1.5px solid var(--panel-line); border-radius: 100px; padding: 0.4em 0.9em; transition: background 0.3s, color 0.3s; }
-  .foot__top:hover { background: var(--accent); border-color: var(--accent); color: #14110C; }
+  .foot__top:hover { background: var(--accent); border-color: var(--accent); color: var(--on-accent); }
 </style>
