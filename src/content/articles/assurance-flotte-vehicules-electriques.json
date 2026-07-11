@@ -14,10 +14,10 @@
   ],
   "chapo": "Passer à l’électrique ne consiste pas à ajouter des véhicules silencieux à un contrat existant. Batterie, immobilisation, recharge et organisation des réparations modifient le risque. Voici comment bâtir une assurance de flotte cohérente, sans payer des garanties inutiles ni laisser de zones d’ombre.",
   "metaDescription": "Assurance flotte automobile pour véhicules électriques : garanties, batterie, recharge, assistance et critères pour comparer contrats d’entreprise sereinement.",
-  "heroImage": null,
-  "heroImageSm": null,
+  "heroImage": "/img/heroes/assurance-flotte-vehicules-electriques.webp",
+  "heroImageSm": "/img/heroes/assurance-flotte-vehicules-electriques-sm.webp",
   "heroAlt": "Assurance flotte automobile pour véhicules électriques : quelles offres pour une flotte de véhicules propres ?",
-  "heroGenerated": false,
+  "heroGenerated": true,
   "readingTime": 14,
   "keyTakeaways": [
     "La responsabilité civile reste obligatoire, mais elle ne protège ni la batterie endommagée ni l’immobilisation de l’activité.",

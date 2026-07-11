@@ -13,10 +13,10 @@
   ],
   "chapo": "Une monture solaire en bois peut apporter une présence douce à une silhouette très simple, à condition de ne pas sacrifier la protection ni l’ajustement. Type de bois, qualité des charnières, catégorie de filtre et entretien : voici la méthode pour choisir un modèle vraiment agréable à porter.",
   "metaDescription": "Lunette de soleil en bois minimaliste : choisissez une monture sobre, protectrice et durable grâce à nos critères de confort, verres et entretien au quotidien.",
-  "heroImage": null,
-  "heroImageSm": null,
+  "heroImage": "/img/heroes/lunettes-soleil-bois-minimaliste.webp",
+  "heroImageSm": "/img/heroes/lunettes-soleil-bois-minimaliste-sm.webp",
   "heroAlt": "Lunette de soleil en bois look minimaliste : sobriété et raffinement pour un style épuré",
-  "heroGenerated": false,
+  "heroGenerated": true,
   "readingTime": 11,
   "keyTakeaways": [
     "La protection dépend avant tout des verres, de leur catégorie de filtre et de leur conformité, pas du matériau de la monture.",

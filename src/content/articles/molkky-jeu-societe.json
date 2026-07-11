@@ -14,10 +14,10 @@
   ],
   "chapo": "À mi-chemin entre jeu d’adresse de plein air et jeu de score, le Mölkky réunit facilement enfants, adultes et joueurs occasionnels. Bien préparée, une partie se combine aussi avec des jeux de société plus calmes pour composer un après-midi, un anniversaire ou une soirée réellement accessible à tous.",
   "metaDescription": "Jeu de Mölkky et jeu de société : règles, variantes, matériel et idées pour des parties conviviales, en extérieur ou à la maison.",
-  "heroImage": null,
-  "heroImageSm": null,
+  "heroImage": "/img/heroes/molkky-jeu-societe.webp",
+  "heroImageSm": "/img/heroes/molkky-jeu-societe-sm.webp",
   "heroAlt": "Jeu de Mölkky et jeu de société : combinez Mölkky et jeu de société pour des moments diversifiés",
-  "heroGenerated": false,
+  "heroGenerated": true,
   "readingTime": 11,
   "keyTakeaways": [
     "Le but est d’atteindre exactement 50 points, sans les dépasser.",

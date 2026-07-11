@@ -13,10 +13,10 @@
   ],
   "chapo": "La mention « assurance incluse » ne suffit pas à savoir ce qui restera à votre charge après un accident, une chute ou un vol. Garanties réelles, montant de franchise, dépôt de garantie, exclusions et démarches : voici comment lire une offre de location de moto avant de prendre la route.",
   "metaDescription": "Location moto avec assurance complète : garanties, franchise, dépôt, exclusions et réflexes pour choisir le bon contrat et rouler sereinement en France.",
-  "heroImage": null,
-  "heroImageSm": null,
+  "heroImage": "/img/heroes/location-moto-assurance-complete.webp",
+  "heroImageSm": "/img/heroes/location-moto-assurance-complete-sm.webp",
   "heroAlt": "Location moto avec assurances incluses : Location de moto avec assurance complète pour partir serein",
-  "heroGenerated": false,
+  "heroGenerated": true,
   "readingTime": 12,
   "keyTakeaways": [
     "La responsabilité civile est obligatoire, mais elle ne couvre ni les dommages à la moto louée ni les blessures du conducteur.",

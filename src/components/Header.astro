@@ -4,7 +4,6 @@ import { NAV, SITE } from '../lib/site';
 <header class="masthead" data-header>
   <div class="wrap wrap--wide masthead__bar">
     <a href="/" class="brand" aria-label={`${SITE.name} — accueil`}>
-      <span class="brand__seal" aria-hidden="true">♛</span>
       <img class="brand__logo" src="/img/logo.png" alt={SITE.name} width="730" height="181" fetchpriority="high" />
     </a>
 
@@ -52,13 +51,7 @@ import { NAV, SITE } from '../lib/site';
     padding-block: 0.75rem;
   }
 
-  .brand { flex-shrink: 0; display: inline-flex; align-items: center; gap: 0.6rem; }
-  .brand__seal {
-    font-size: clamp(1.4rem, 3vw, 1.9rem); color: var(--accent); line-height: 1;
-    text-shadow: 0 1px 0 rgba(0,0,0,0.25);
-    transition: transform 0.4s var(--ease);
-  }
-  .brand:hover .brand__seal { transform: rotate(-8deg) scale(1.08); }
+  .brand { flex-shrink: 0; display: inline-flex; align-items: center; }
   .brand__logo { height: clamp(28px, 4.6vw, 44px); width: auto; }
 
   .nav { display: none; gap: clamp(0.6rem, 1.4vw, 1.6rem); flex-wrap: wrap; justify-content: center; }

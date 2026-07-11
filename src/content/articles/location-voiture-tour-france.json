@@ -14,10 +14,10 @@
   ],
   "chapo": "Faire le tour de la France en voiture permet de relier littoral, campagnes et massifs au rythme de ses envies. Mais le confort dépend moins de la catégorie annoncée que d’un itinéraire réaliste, d’un contrat lisible et d’une préparation attentive des frais annexes.",
   "metaDescription": "Location de voiture pour un tour de France : véhicule, budget, assurances, itinéraire et règles utiles pour voyager confortablement et sereinement.",
-  "heroImage": null,
-  "heroImageSm": null,
+  "heroImage": "/img/heroes/location-voiture-tour-france.webp",
+  "heroImageSm": "/img/heroes/location-voiture-tour-france-sm.webp",
   "heroAlt": "Location de voiture pour tour de France : Louer une voiture confortable pour faire le tour de France",
-  "heroGenerated": false,
+  "heroGenerated": true,
   "readingTime": 13,
   "keyTakeaways": [
     "Choisissez la catégorie selon les passagers, les bagages et les routes prévues, pas seulement selon le tarif journalier.",

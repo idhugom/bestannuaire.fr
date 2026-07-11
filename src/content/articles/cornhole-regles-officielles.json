@@ -13,10 +13,10 @@
   ],
   "chapo": "Un cornhole peut se jouer en quelques minutes entre amis, mais un match équitable suppose un terrain bien mesuré et un comptage précis. Dimensions des planches, distance de lancer, ordre de jeu, annulation des points : voici le cadre à connaître pour pratiquer selon les standards de compétition.",
   "metaDescription": "Cornhole : dimensions du matériel, distance entre les planches, score, fautes et déroulé d’un match pour appliquer les règles officielles sans erreur.",
-  "heroImage": null,
-  "heroImageSm": null,
+  "heroImage": "/img/heroes/cornhole-regles-officielles.webp",
+  "heroImageSm": "/img/heroes/cornhole-regles-officielles-sm.webp",
   "heroAlt": "Cornhole et règles officielles : jouez selon les normes avec les règles officielles",
-  "heroGenerated": false,
+  "heroGenerated": true,
   "readingTime": 11,
   "keyTakeaways": [
     "Les planches de référence mesurent généralement 122 × 61 cm, avec un trou de 15,2 cm de diamètre.",

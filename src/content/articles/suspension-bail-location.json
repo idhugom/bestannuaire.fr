@@ -14,10 +14,10 @@
   ],
   "chapo": "Une location ne se « met pas en pause » par simple décision. Retard de remise des clés, travaux, sinistre ou arrêté de danger : chaque situation obéit à des règles distinctes. Voici comment protéger vos droits, calculer ce qui reste dû et agir sans prendre le risque d’un impayé.",
   "metaDescription": "Suspension d’un bail de location : travaux, sinistre ou logement dangereux, règles sur le loyer, démarches et erreurs à éviter pour locataire et bailleur.",
-  "heroImage": null,
-  "heroImageSm": null,
+  "heroImage": "/img/heroes/suspension-bail-location.webp",
+  "heroImageSm": "/img/heroes/suspension-bail-location-sm.webp",
   "heroAlt": "Suspension d’un bail de location immobilière : dans quels cas ?",
-  "heroGenerated": false,
+  "heroGenerated": true,
   "readingTime": 12,
   "keyTakeaways": [
     "Il n’existe pas de droit général permettant de suspendre seul un bail ou le paiement du loyer.",

@@ -200,7 +200,7 @@ const shareTitle = encodeURIComponent(d.title);
   .crumbs a:hover { color: var(--accent-ink); }
   .crumbs__cur { color: var(--ink-2); }
   .ahero__rub { margin-bottom: 1.1rem; background: var(--rub); border-color: var(--rub); color: var(--on-accent); }
-  .ahero__title { font-size: var(--step-4); line-height: 0.98; margin-bottom: 1rem; }
+  .ahero__title { font-size: clamp(1.75rem, 1.35rem + 1.7vw, 2.8rem); line-height: 1.06; margin-bottom: 1rem; }
   .ahero__chapo { font-family: var(--font-serif); font-size: var(--step-1); line-height: 1.4; color: var(--ink-2); max-width: 62ch; }
   .ahero__meta { display: flex; align-items: center; gap: 0.7em; flex-wrap: wrap; margin-top: 1.6rem; font-family: var(--font-sans); font-size: 0.86rem; color: var(--ink-2); }
   .ahero__author { display: inline-flex; align-items: center; gap: 0.5em; font-weight: 600; }

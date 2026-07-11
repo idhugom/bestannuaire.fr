@@ -1,6 +1,9 @@
 {
   "vente-de-culottes-menstruelles-performantes-economiques-et-ecologiques-2": {
-    "status": "none"
+    "status": "generated",
+    "hero": "/img/heroes/vente-de-culottes-menstruelles-performantes-economiques-et-ecologiques-2.webp",
+    "sm": "/img/heroes/vente-de-culottes-menstruelles-performantes-economiques-et-ecologiques-2-sm.webp",
+    "alt": "Vente de culottes menstruelles performantes, \u00e9conomiques et \u00e9cologiques"
   },
   "panneau-radiant-hotel": {
     "status": "generated",
@@ -123,200 +126,298 @@
     "alt": "Loi Hamon r\u00e9siliation pour changement d\u2019assurance : quelles d\u00e9marches lors d\u2019un passage \u00e0 un nouvel assureur ?"
   },
   "panneaux-solaires-vente-immobilier-2": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/panneaux-solaires-vente-immobilier-2.webp",
+    "sm": "/img/heroes/panneaux-solaires-vente-immobilier-2-sm.webp",
+    "alt": "panneaux solaires et contrat de vente immobilier : les points \u00e0 v\u00e9rifier"
   },
   "sejour-luxe-guadeloupe": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/sejour-luxe-guadeloupe.webp",
+    "sm": "/img/heroes/sejour-luxe-guadeloupe-sm.webp",
+    "alt": "S\u00e9jour de luxe aux \u00eeles de la Guadeloupe : des vacances haut de gamme dans un cadre paradisiaque"
   },
   "retouche-eclats-toit-tesla": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/retouche-eclats-toit-tesla.webp",
+    "sm": "/img/heroes/retouche-eclats-toit-tesla-sm.webp",
+    "alt": "Stylo retouche Tesla pour \u00e9clats sur toit : \u00e9liminez les \u00e9clats sur le toit de votre Tesla"
   },
   "lit-cabane-rangement-enfants": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/lit-cabane-rangement-enfants.webp",
+    "sm": "/img/heroes/lit-cabane-rangement-enfants-sm.webp",
+    "alt": "Lit cabane avec tiroirs et espace de rangement ouvert : un lit pratique pour les enfants"
   },
   "lit-montessori-adapte-age": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/lit-montessori-adapte-age.webp",
+    "sm": "/img/heroes/lit-montessori-adapte-age-sm.webp",
+    "alt": "Comment choisir un lit Montessori adapt\u00e9 \u00e0 l\u2019\u00e2ge : conseils pour une \u00e9volution harmonieuse"
   },
   "bijou-bois-design-contemporain": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/bijou-bois-design-contemporain.webp",
+    "sm": "/img/heroes/bijou-bois-design-contemporain-sm.webp",
+    "alt": "Bijou contemporain en bois : Ligne moderne avec un bijou en bois au design contemporain"
   },
   "magret-canard-choix": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/magret-canard-choix.webp",
+    "sm": "/img/heroes/magret-canard-choix-sm.webp",
+    "alt": "Magret de canard entier ou tranch\u00e9 : quel choix faire ?"
   },
   "cornhole-regles-officielles": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/cornhole-regles-officielles.webp",
+    "sm": "/img/heroes/cornhole-regles-officielles-sm.webp",
+    "alt": "Cornhole et r\u00e8gles officielles : jouez selon les normes avec les r\u00e8gles officielles"
   },
   "sejour-bateau-guadeloupe": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/sejour-bateau-guadeloupe.webp",
+    "sm": "/img/heroes/sejour-bateau-guadeloupe-sm.webp",
+    "alt": "S\u00e9jour en bateau en Guadeloupe : explorez l\u2019\u00eele depuis la mer"
   },
   "pompe-rotative-adblue-bosch": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/pompe-rotative-adblue-bosch.webp",
+    "sm": "/img/heroes/pompe-rotative-adblue-bosch-sm.webp",
+    "alt": "Pompe rotative AdBlue Bosch : innovations et durabilit\u00e9"
   },
   "suspension-bail-location": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/suspension-bail-location.webp",
+    "sm": "/img/heroes/suspension-bail-location-sm.webp",
+    "alt": "Suspension d\u2019un bail de location immobili\u00e8re : dans quels cas ?"
   },
   "foie-gras-figues-fraiches": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/foie-gras-figues-fraiches.webp",
+    "sm": "/img/heroes/foie-gras-figues-fraiches-sm.webp",
+    "alt": "Foie gras et figues fraiches po\u00eal\u00e9es : Po\u00eal\u00e9e de foie gras et figues fra\u00eeches, recette sucr\u00e9e-sal\u00e9e"
   },
   "camping-lac-annecy-nature": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/camping-lac-annecy-nature.webp",
+    "sm": "/img/heroes/camping-lac-annecy-nature-sm.webp",
+    "alt": "Lac d\u2019Annecy camping \u00e0 proximit\u00e9 : choisissez un camping au c\u0153ur de la nature"
   },
   "garantie-decennale-indemnisation": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/garantie-decennale-indemnisation.webp",
+    "sm": "/img/heroes/garantie-decennale-indemnisation-sm.webp",
+    "alt": "Garantie d\u00e9cennale indemnisation sinistre : comment fonctionne la prise en charge en cas de d\u00e9sordre ?"
   },
   "resiliation-multirisque-entreprises": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/resiliation-multirisque-entreprises.webp",
+    "sm": "/img/heroes/resiliation-multirisque-entreprises-sm.webp",
+    "alt": "Loi Hamon r\u00e9siliation multirisque professionnelle : quelles solutions pour les entreprises assur\u00e9es en multirisque ?"
   },
   "maillot-nfl-jerseys": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/maillot-nfl-jerseys.webp",
+    "sm": "/img/heroes/maillot-nfl-jerseys-sm.webp",
+    "alt": "Maillot football am\u00e9ricain NFL : les jerseys officiels des plus grandes \u00e9quipes"
   },
   "location-moto-assurance-complete": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/location-moto-assurance-complete.webp",
+    "sm": "/img/heroes/location-moto-assurance-complete-sm.webp",
+    "alt": "Location moto avec assurances incluses : Location de moto avec assurance compl\u00e8te pour partir serein"
   },
   "assortir-pochette-boutonniere": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/assortir-pochette-boutonniere.webp",
+    "sm": "/img/heroes/assortir-pochette-boutonniere-sm.webp",
+    "alt": "Comment assortir pochette et boutonni\u00e8re sans en faire trop"
   },
   "chauffage-industriel-destratificateur": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/chauffage-industriel-destratificateur.webp",
+    "sm": "/img/heroes/chauffage-industriel-destratificateur-sm.webp",
+    "alt": "Chauffage industriel avec d\u00e9stratificateur : Chauffage avec syst\u00e8me de d\u00e9stratification pour homog\u00e9n\u00e9it\u00e9 thermique"
   },
   "montre-vo2max-capacite-aerobie": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/montre-vo2max-capacite-aerobie.webp",
+    "sm": "/img/heroes/montre-vo2max-capacite-aerobie-sm.webp",
+    "alt": "Montre connect\u00e9e avec estimation de la VO2 max : \u00e9valuez votre capacit\u00e9 a\u00e9robie avec pr\u00e9cision"
   },
   "lunettes-soleil-bois-minimaliste": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/lunettes-soleil-bois-minimaliste.webp",
+    "sm": "/img/heroes/lunettes-soleil-bois-minimaliste-sm.webp",
+    "alt": "Lunette de soleil en bois look minimaliste : sobri\u00e9t\u00e9 et raffinement pour un style \u00e9pur\u00e9"
   },
   "chauffage-industriel-humide": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/chauffage-industriel-humide.webp",
+    "sm": "/img/heroes/chauffage-industriel-humide-sm.webp",
+    "alt": "Chauffage industriel pour milieu humide : Solution de chauffage industrielle con\u00e7ue pour zones \u00e0 forte humidit\u00e9"
   },
   "enjoliveurs-uberturbine-model-y": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/enjoliveurs-uberturbine-model-y.webp",
+    "sm": "/img/heroes/enjoliveurs-uberturbine-model-y-sm.webp",
+    "alt": "Enjoliveurs Uberturbine Tesla pour mod\u00e8le Y : enjoliveurs Uberturbine parfaits pour votre Tesla Model Y"
   },
   "simulation-tarif-garantie-decennale": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/simulation-tarif-garantie-decennale.webp",
+    "sm": "/img/heroes/simulation-tarif-garantie-decennale-sm.webp",
+    "alt": "Garantie d\u00e9cennale simulation tarif : comment estimer le co\u00fbt de sa garantie en quelques clics ?"
   },
   "mandrin-machoire-metal": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/mandrin-machoire-metal.webp",
+    "sm": "/img/heroes/mandrin-machoire-metal-sm.webp",
+    "alt": "Mandrin perceuse \u00e0 m\u00e2choires m\u00e9talliques : mandrin solide avec m\u00e2choires m\u00e9talliques pour une meilleure prise"
   },
   "molkky-jeu-societe": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/molkky-jeu-societe.webp",
+    "sm": "/img/heroes/molkky-jeu-societe-sm.webp",
+    "alt": "Jeu de M\u00f6lkky et jeu de soci\u00e9t\u00e9 : combinez M\u00f6lkky et jeu de soci\u00e9t\u00e9 pour des moments diversifi\u00e9s"
   },
   "financer-achat-immobilier-revenus-irreguliers": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/financer-achat-immobilier-revenus-irreguliers.webp",
+    "sm": "/img/heroes/financer-achat-immobilier-revenus-irreguliers-sm.webp",
+    "alt": "Financer un achat immobilier avec des revenus irr\u00e9guliers : est-ce possible ?"
   },
   "visseuse-sans-fil-12v": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/visseuse-sans-fil-12v.webp",
+    "sm": "/img/heroes/visseuse-sans-fil-12v-sm.webp",
+    "alt": "Visseuse sans fil 12V : compacit\u00e9 et puissance pour les petits travaux"
   },
   "assurance-flotte-vtc": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/assurance-flotte-vtc.webp",
+    "sm": "/img/heroes/assurance-flotte-vtc-sm.webp",
+    "alt": "Assurance flotte automobile pour VTC : quelles formules d\u00e9di\u00e9es aux chauffeurs VTC en flotte ?"
   },
   "triangle-or-annecy-lieux": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/triangle-or-annecy-lieux.webp",
+    "sm": "/img/heroes/triangle-or-annecy-lieux-sm.webp",
+    "alt": "Lieux incontournables Triangle d\u2019Or Annecy : des \u00e9tapes essentielles pour un s\u00e9jour r\u00e9ussi"
   },
   "assurance-flotte-vehicules-electriques": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/assurance-flotte-vehicules-electriques.webp",
+    "sm": "/img/heroes/assurance-flotte-vehicules-electriques-sm.webp",
+    "alt": "Assurance flotte automobile pour v\u00e9hicules \u00e9lectriques : quelles offres pour une flotte de v\u00e9hicules propres ?"
   },
   "sejour-vue-mer-oman": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/sejour-vue-mer-oman.webp",
+    "sm": "/img/heroes/sejour-vue-mer-oman-sm.webp",
+    "alt": "S\u00e9jour avec vue sur mer \u00e0 Oman : profitez d\u2019une vue imprenable sur l\u2019oc\u00e9an depuis votre chambre"
   },
   "enjoliveurs-uberturbine-tesla-18": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/enjoliveurs-uberturbine-tesla-18.webp",
+    "sm": "/img/heroes/enjoliveurs-uberturbine-tesla-18-sm.webp",
+    "alt": "Enjoliveurs Uberturbine Tesla pour voitures haut de gamme : des enjoliveurs Uberturbine pour voitures de luxe Tesla"
   },
   "cravate-mariage-motif-discret": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/cravate-mariage-motif-discret.webp",
+    "sm": "/img/heroes/cravate-mariage-motif-discret-sm.webp",
+    "alt": "Cravate mariage \u00e0 motif discret : Subtilit\u00e9 et style avec une cravate orn\u00e9e d\u2019un motif l\u00e9ger"
   },
   "controle-technique-tuyau-echappement": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/controle-technique-tuyau-echappement.webp",
+    "sm": "/img/heroes/controle-technique-tuyau-echappement-sm.webp",
+    "alt": "Contr\u00f4le technique et \u00e9tat du tuyau d\u2019\u00e9chappement : que v\u00e9rifier ?"
   },
   "voyage-noces-seychelles": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/voyage-noces-seychelles.webp",
+    "sm": "/img/heroes/voyage-noces-seychelles-sm.webp",
+    "alt": "Voyage de noces aux Seychelles : une destination magique pour un s\u00e9jour romantique"
   },
   "prix-amortisseurs-avant": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/prix-amortisseurs-avant.webp",
+    "sm": "/img/heroes/prix-amortisseurs-avant-sm.webp",
+    "alt": "Prix moyen des amortisseurs avant : guide d\u2019achat"
   },
   "cravate-tricot-mariage": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/cravate-tricot-mariage.webp",
+    "sm": "/img/heroes/cravate-tricot-mariage-sm.webp",
+    "alt": "Cravate mariage en tricot \u00e9l\u00e9gant : Texture tendance et chic avec une cravate en tricot pour mariage"
   },
   "location-voiture-tour-france": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/location-voiture-tour-france.webp",
+    "sm": "/img/heroes/location-voiture-tour-france-sm.webp",
+    "alt": "Location de voiture pour tour de France : Louer une voiture confortable pour faire le tour de France"
   },
   "protege-matelas-anti-transpiration": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/protege-matelas-anti-transpiration.webp",
+    "sm": "/img/heroes/protege-matelas-anti-transpiration-sm.webp",
+    "alt": "Prot\u00e8ge matelas anti-transpiration : Nuit au sec avec prot\u00e8ge matelas anti-transpiration"
   },
   "bien-etre-oman-detente": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/bien-etre-oman-detente.webp",
+    "sm": "/img/heroes/bien-etre-oman-detente-sm.webp",
+    "alt": "S\u00e9jour bien-\u00eatre \u00e0 Oman : d\u00e9tente et relaxation dans un cadre somptueux"
   },
   "diagnostiquer-dyslexie-adolescence": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/diagnostiquer-dyslexie-adolescence.webp",
+    "sm": "/img/heroes/diagnostiquer-dyslexie-adolescence-sm.webp",
+    "alt": "Comment diagnostiquer la dyslexie \u00e0 l\u2019adolescence ?"
   },
   "sejour-detente-zanzibar": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/sejour-detente-zanzibar.webp",
+    "sm": "/img/heroes/sejour-detente-zanzibar-sm.webp",
+    "alt": "S\u00e9jour d\u00e9tente \u00e0 Zanzibar : Organiser des vacances reposantes au rythme de Zanzibar"
   },
   "kit-distribution-volkswagen-golf-5": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/kit-distribution-volkswagen-golf-5.webp",
+    "sm": "/img/heroes/kit-distribution-volkswagen-golf-5-sm.webp",
+    "alt": "Kit de distribution compatible Volkswagen Golf 5 : Quel kit de distribution est compatible avec une Volkswagen Golf 5"
   },
   "demontage-compresseur-clim": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/demontage-compresseur-clim.webp",
+    "sm": "/img/heroes/demontage-compresseur-clim-sm.webp",
+    "alt": "D\u00e9montage d\u2019un compresseur de climatisation : \u00e9tapes essentielles"
   },
   "assurance-camping-car-luxe": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/assurance-camping-car-luxe.webp",
+    "sm": "/img/heroes/assurance-camping-car-luxe-sm.webp",
+    "alt": "Assurance camping car pour v\u00e9hicule de luxe : quelles offres pour les camping-cars haut de gamme ?"
   },
   "impression-invitations-entreprise": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/impression-invitations-entreprise.webp",
+    "sm": "/img/heroes/impression-invitations-entreprise-sm.webp",
+    "alt": "Impression cartons invitation entreprise : soignez l\u2019image de vos \u00e9v\u00e9nements professionnels"
   },
   "collier-bois-liege-nature-2": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/collier-bois-liege-nature-2.webp",
+    "sm": "/img/heroes/collier-bois-liege-nature-2-sm.webp",
+    "alt": "Collier bois li\u00e8ge pour amatrice de nature : Collier bois li\u00e8ge pour femme amatrice de nature et d\u2019authenticit\u00e9"
   },
   "pret-immobilier-maison-ancienne": {
-    "status": "failed",
-    "reason": "Error: Input buffer contains unsupported image format"
+    "status": "generated",
+    "hero": "/img/heroes/pret-immobilier-maison-ancienne.webp",
+    "sm": "/img/heroes/pret-immobilier-maison-ancienne-sm.webp",
+    "alt": "Pr\u00eat immobilier pour acheter une maison ancienne : quelles conditions ?"
   },
   "budget-sejour-ile-maurice": {
     "status": "failed",

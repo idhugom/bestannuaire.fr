@@ -13,10 +13,10 @@
   ],
   "chapo": "Entre rives animées, plages, montagnes et pistes cyclables, le bon camping ne se choisit pas seulement selon sa distance au lac. Secteur, type d’hébergement, mobilité, tranquillité et règles environnementales déterminent la qualité réelle de votre séjour autour du lac d’Annecy.",
   "metaDescription": "Camping près du lac d’Annecy : zones, accès au lac, hébergements, budget, réservation et règles pour choisir un séjour nature réussi en famille cet été.",
-  "heroImage": null,
-  "heroImageSm": null,
+  "heroImage": "/img/heroes/camping-lac-annecy-nature.webp",
+  "heroImageSm": "/img/heroes/camping-lac-annecy-nature-sm.webp",
   "heroAlt": "Lac d’Annecy camping à proximité : choisissez un camping au cœur de la nature",
-  "heroGenerated": false,
+  "heroGenerated": true,
   "readingTime": 11,
   "keyTakeaways": [
     "La proximité affichée du lac ne garantit ni un accès direct à l’eau ni une plage accessible à pied.",

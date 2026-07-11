@@ -14,10 +14,10 @@
   ],
   "chapo": "Dans un atelier, un entrepôt ou un gymnase, la chaleur s’accumule souvent sous la toiture alors que les postes de travail restent frais. Le déstratificateur remet cet air chaud en mouvement pour mieux exploiter l’énergie déjà produite. Son efficacité dépend toutefois du bâtiment, du dimensionnement et du pilotage.",
   "metaDescription": "Chauffage industriel avec déstratificateur : fonctionnement, gains possibles, choix, installation et réglages pour homogénéiser durablement vos ateliers.",
-  "heroImage": null,
-  "heroImageSm": null,
+  "heroImage": "/img/heroes/chauffage-industriel-destratificateur.webp",
+  "heroImageSm": "/img/heroes/chauffage-industriel-destratificateur-sm.webp",
   "heroAlt": "Chauffage industriel avec déstratificateur : Chauffage avec système de déstratification pour homogénéité thermique",
-  "heroGenerated": false,
+  "heroGenerated": true,
   "readingTime": 11,
   "keyTakeaways": [
     "Un déstratificateur redistribue l’air chaud accumulé en hauteur : il ne produit pas de chaleur.",

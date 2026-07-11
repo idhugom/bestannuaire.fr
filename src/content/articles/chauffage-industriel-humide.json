@@ -14,10 +14,10 @@
   ],
   "chapo": "Dans un atelier soumis à la vapeur, aux lavages fréquents ou à la condensation, chauffer ne consiste pas seulement à produire des kilowatts. Le système doit aussi résister à la corrosion, préserver la sécurité électrique, limiter l’humidité et rester compatible avec les exigences de production, d’hygiène et de maintenance.",
   "metaDescription": "Chauffage industriel en milieu humide : technologies, indice IP, corrosion, dimensionnement, sécurité et économies pour équiper un site durablement, au mieux.",
-  "heroImage": null,
-  "heroImageSm": null,
+  "heroImage": "/img/heroes/chauffage-industriel-humide.webp",
+  "heroImageSm": "/img/heroes/chauffage-industriel-humide-sm.webp",
   "heroAlt": "Chauffage industriel pour milieu humide : Solution de chauffage industrielle conçue pour zones à forte humidité",
-  "heroGenerated": false,
+  "heroGenerated": true,
   "readingTime": 13,
   "keyTakeaways": [
     "L’humidité relative ne suffit pas : il faut identifier condensation, projections, vapeur, agents chimiques et zones froides.",

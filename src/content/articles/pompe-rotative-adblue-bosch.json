@@ -14,10 +14,10 @@
   ],
   "chapo": "La pompe qui alimente le circuit AdBlue conditionne le bon fonctionnement de la dépollution SCR d’un diesel moderne. Entre références proches, cristallisation du fluide et défauts électroniques, le bon diagnostic compte davantage que le simple remplacement d’une pièce. Voici comment comprendre, choisir et préserver cet équipement.",
   "metaDescription": "Pompe rotative AdBlue Bosch : rôle, fonctionnement, pannes, entretien et critères de choix pour préserver le système SCR d’un diesel au quotidien efficacement.",
-  "heroImage": null,
-  "heroImageSm": null,
+  "heroImage": "/img/heroes/pompe-rotative-adblue-bosch.webp",
+  "heroImageSm": "/img/heroes/pompe-rotative-adblue-bosch-sm.webp",
   "heroAlt": "Pompe rotative AdBlue Bosch : innovations et durabilité",
-  "heroGenerated": false,
+  "heroGenerated": true,
   "readingTime": 11,
   "keyTakeaways": [
     "Une pompe AdBlue sert à acheminer et à mettre sous pression le fluide pour un dosage SCR précis ; elle ne doit pas être confondue avec une pompe de remplissage.",

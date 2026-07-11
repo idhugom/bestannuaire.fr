@@ -13,10 +13,10 @@
   ],
   "chapo": "Le remplacement des amortisseurs avant représente un budget très variable selon la voiture et le montage de suspension. Au-delà du tarif affiché pour une pièce, il faut anticiper le travail en atelier, le remplacement des éléments d’usure voisins et les contrôles nécessaires pour retrouver un comportement routier sûr.",
   "metaDescription": "Prix amortisseurs avant : repérez le coût des pièces, de la pose et des éléments associés pour budgéter un remplacement fiable et sécurisé sans surprise.",
-  "heroImage": null,
-  "heroImageSm": null,
+  "heroImage": "/img/heroes/prix-amortisseurs-avant.webp",
+  "heroImageSm": "/img/heroes/prix-amortisseurs-avant-sm.webp",
   "heroAlt": "Prix moyen des amortisseurs avant : guide d’achat",
-  "heroGenerated": false,
+  "heroGenerated": true,
   "readingTime": 9,
   "keyTakeaways": [
     "Les amortisseurs avant se remplacent normalement par paire sur le même essieu.",

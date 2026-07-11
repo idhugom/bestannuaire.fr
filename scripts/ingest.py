@@ -65,8 +65,12 @@ def build_article(post: dict, gen: dict, manifest: dict, featured: bool = False)
     ]
     tags = [t.strip().lower() for t in gen.get("tags", []) if t and t.strip()][:6]
 
+    title = (post.get("title") or "").strip()
+    if not title:  # certains anciens posts WP ont un titre vide
+        title = slug.replace("-", " ").strip().capitalize()
+
     return {
-        "title": post["title"],
+        "title": title,
         "slug": slug,
         "date": post["date"],
         "updated": post.get("modified") or post["date"],

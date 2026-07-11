@@ -13,10 +13,10 @@
   ],
   "chapo": "Le chiffre de VO2 max affiché par une montre peut aider à suivre l’évolution de votre endurance, à condition de savoir ce qu’il représente réellement. Capteurs, algorithmes, conditions de course et état de forme influencent l’estimation : voici comment l’utiliser utilement, sans lui accorder une précision qu’il n’a pas.",
   "metaDescription": "Montre connectée et VO2 max : fiabilité de l’estimation, protocole, limites et critères de choix pour suivre votre capacité aérobie au quotidien, simplement.",
-  "heroImage": null,
-  "heroImageSm": null,
+  "heroImage": "/img/heroes/montre-vo2max-capacite-aerobie.webp",
+  "heroImageSm": "/img/heroes/montre-vo2max-capacite-aerobie-sm.webp",
   "heroAlt": "Montre connectée avec estimation de la VO2 max : évaluez votre capacité aérobie avec précision",
-  "heroGenerated": false,
+  "heroGenerated": true,
   "readingTime": 10,
   "keyTakeaways": [
     "Une montre ne mesure pas directement la VO2 max : elle la déduit de données physiologiques et de mouvement.",

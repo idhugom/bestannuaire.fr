@@ -14,10 +14,10 @@
   ],
   "chapo": "Minimaliste, graphique ou sculptural, le bijou en bois renouvelle les codes des accessoires avec sa texture chaleureuse et ses veines singulières. Mais son apparente simplicité appelle quelques vérifications : essence, finition, montage, confort et provenance déterminent autant son style que sa durée de vie.",
   "metaDescription": "Bijou contemporain en bois : choisir une pièce moderne, durable et confortable, reconnaître les essences, l’entretenir et éviter les mauvais achats au quotidien.",
-  "heroImage": null,
-  "heroImageSm": null,
+  "heroImage": "/img/heroes/bijou-bois-design-contemporain.webp",
+  "heroImageSm": "/img/heroes/bijou-bois-design-contemporain-sm.webp",
   "heroAlt": "Bijou contemporain en bois : Ligne moderne avec un bijou en bois au design contemporain",
-  "heroGenerated": false,
+  "heroGenerated": true,
   "readingTime": 12,
   "keyTakeaways": [
     "Le bois offre un motif unique, mais la qualité dépend surtout du séchage, de la finition et des assemblages.",

@@ -13,10 +13,10 @@
   ],
   "chapo": "Le format du magret ne change pas seulement le temps passé en cuisine : il détermine la cuisson possible, le budget, la présentation et même les précautions de conservation. Entier, émincé frais, fumé ou séché, chaque produit répond à un usage précis. Voici comment acheter juste et le servir au meilleur moment.",
   "metaDescription": "Magret de canard entier ou tranché : usages, cuisson, conservation et critères pour choisir la bonne présentation, du repas à l’apéritif sans erreur.",
-  "heroImage": null,
-  "heroImageSm": null,
+  "heroImage": "/img/heroes/magret-canard-choix.webp",
+  "heroImageSm": "/img/heroes/magret-canard-choix-sm.webp",
   "heroAlt": "Magret de canard entier ou tranché : quel choix faire ?",
-  "heroGenerated": false,
+  "heroGenerated": true,
   "readingTime": 11,
   "keyTakeaways": [
     "Le magret entier est le meilleur choix pour une cuisson rosée et un plat principal à partager.",

@@ -14,10 +14,10 @@
   ],
   "chapo": "Un mandrin fiable ne se juge pas seulement à son aspect « tout métal ». La qualité des mâchoires, le mode de serrage et surtout la compatibilité avec votre perceuse déterminent la tenue du foret, la précision du trou et votre sécurité. Voici comment choisir, monter et entretenir ce composant essentiel.",
   "metaDescription": "Mandrin perceuse à mâchoires métalliques : types, compatibilités, serrage, entretien et critères pour percer durablement en sécurité sur tous vos chantiers.",
-  "heroImage": null,
-  "heroImageSm": null,
+  "heroImage": "/img/heroes/mandrin-machoire-metal.webp",
+  "heroImageSm": "/img/heroes/mandrin-machoire-metal-sm.webp",
   "heroAlt": "Mandrin perceuse à mâchoires métalliques : mandrin solide avec mâchoires métalliques pour une meilleure prise",
-  "heroGenerated": false,
+  "heroGenerated": true,
   "readingTime": 11,
   "keyTakeaways": [
     "Les mâchoires en acier sont décisives pour le serrage ; une bague métallique seule ne garantit pas une meilleure prise.",

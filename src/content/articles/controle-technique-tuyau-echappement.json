@@ -13,10 +13,10 @@
   ],
   "chapo": "Une ligne d’échappement abîmée ne se résume pas à un bruit désagréable : elle peut compromettre la sécurité, augmenter les rejets polluants et entraîner une contre-visite. Fuites, corrosion, fixations, catalyseur ou filtre à particules : voici ce que le contrôle technique examine réellement et comment préparer votre véhicule.",
   "metaDescription": "Contrôle technique et tuyau d’échappement : défauts contrôlés, risques de contre-visite, préparatifs utiles et réparations à envisager avant le rendez-vous.",
-  "heroImage": null,
-  "heroImageSm": null,
+  "heroImage": "/img/heroes/controle-technique-tuyau-echappement.webp",
+  "heroImageSm": "/img/heroes/controle-technique-tuyau-echappement-sm.webp",
   "heroAlt": "Contrôle technique et état du tuyau d’échappement : que vérifier ?",
-  "heroGenerated": false,
+  "heroGenerated": true,
   "readingTime": 10,
   "keyTakeaways": [
     "Le contrôleur vérifie l’intégrité, la fixation, l’étanchéité et l’efficacité apparente du système d’échappement.",

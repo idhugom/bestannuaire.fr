@@ -13,10 +13,10 @@
   ],
   "chapo": "Le foie gras poêlé et les figues fraîches composent une assiette festive dont la réussite repose moins sur la complexité que sur le timing. Choix du produit, chaleur de la poêle, juste dose d’acidité et service immédiat : voici une méthode fiable pour préserver le fondant du foie gras sans écraser la finesse du fruit.",
   "metaDescription": "Foie gras et figues fraîches poêlées : ingrédients, cuisson minute, assaisonnement et conseils précis pour réussir ce plat sucré-salé festif de réception.",
-  "heroImage": null,
-  "heroImageSm": null,
+  "heroImage": "/img/heroes/foie-gras-figues-fraiches.webp",
+  "heroImageSm": "/img/heroes/foie-gras-figues-fraiches-sm.webp",
   "heroAlt": "Foie gras et figues fraiches poêlées : Poêlée de foie gras et figues fraîches, recette sucrée-salée",
-  "heroGenerated": false,
+  "heroGenerated": true,
   "readingTime": 11,
   "keyTakeaways": [
     "Choisissez du foie gras cru en escalopes épaisses et des figues souples, mais non éclatées.",

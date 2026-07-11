@@ -14,10 +14,10 @@
   ],
   "chapo": "Alternative lavable aux protections périodiques jetables, la culotte menstruelle séduit par son confort et sa réutilisation. Encore faut-il choisir le bon niveau d’absorption, vérifier la composition et adopter un entretien rigoureux : ce guide détaille les critères réellement utiles avant l’achat.",
   "metaDescription": "Culottes menstruelles : absorption, matières, sécurité, entretien et budget. Le guide pour choisir une protection lavable fiable et adaptée au flux.",
-  "heroImage": null,
-  "heroImageSm": null,
+  "heroImage": "/img/heroes/vente-de-culottes-menstruelles-performantes-economiques-et-ecologiques-2.webp",
+  "heroImageSm": "/img/heroes/vente-de-culottes-menstruelles-performantes-economiques-et-ecologiques-2-sm.webp",
   "heroAlt": "Vente de culottes menstruelles performantes, économiques et écologiques",
-  "heroGenerated": false,
+  "heroGenerated": true,
   "readingTime": 11,
   "keyTakeaways": [
     "Le niveau d’absorption doit être choisi selon votre flux réel, et non selon une promesse générale de durée.",
@@ -54,6 +54,6 @@
     }
   ],
   "sources": [],
-  "featured": false,
+  "featured": true,
   "_imagePrompt": "Ultra-realistic editorial photojournalism photograph of a French adult woman at home in a bright, calm bathroom-laundry area, carefully folding several clean menstrual underwear pieces in neutral colors beside a small fabric laundry pouch and a simple care label, natural morning window light, authentic lived-in setting, discreet and respectful composition, no nudity, no text, no logos, no watermark."
 }

@@ -14,10 +14,10 @@
   ],
   "chapo": "Voilier, catamaran, bateau à moteur ou sortie encadrée : la Guadeloupe se découvre depuis l’eau à condition de choisir une formule adaptée. Zones protégées, alizés, permis, assurance, mouillage et ravitaillement demandent toutefois une préparation précise pour transformer l’évasion en navigation sereine.",
   "metaDescription": "Préparez votre séjour en bateau en Guadeloupe : itinéraires, formules, budget indicatif, météo, sécurité et règles pour naviguer sans mauvaise surprise.",
-  "heroImage": null,
-  "heroImageSm": null,
+  "heroImage": "/img/heroes/sejour-bateau-guadeloupe.webp",
+  "heroImageSm": "/img/heroes/sejour-bateau-guadeloupe-sm.webp",
   "heroAlt": "Séjour en bateau en Guadeloupe : explorez l’île depuis la mer",
-  "heroGenerated": false,
+  "heroGenerated": true,
   "readingTime": 12,
   "keyTakeaways": [
     "Une sortie avec skipper convient aux débutants ; la location sans équipage exige une expérience réellement vérifiable.",

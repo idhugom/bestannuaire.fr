@@ -14,10 +14,10 @@
   ],
   "chapo": "Une installation photovoltaïque peut renforcer l’intérêt d’une maison, mais elle associe un équipement fixé au toit, des démarches de raccordement et parfois un financement à long terme. Avant le compromis, vendeur et acquéreur doivent identifier le propriétaire des panneaux, vérifier les droits à produire et organiser le transfert des documents, revenus et responsabilités.",
   "metaDescription": "Panneaux solaires et vente immobilier : contrats, propriété, raccordement, garanties et documents à contrôler avant de signer chez le notaire.",
-  "heroImage": null,
-  "heroImageSm": null,
+  "heroImage": "/img/heroes/panneaux-solaires-vente-immobilier-2.webp",
+  "heroImageSm": "/img/heroes/panneaux-solaires-vente-immobilier-2-sm.webp",
   "heroAlt": "panneaux solaires et contrat de vente immobilier : les points à vérifier",
-  "heroGenerated": false,
+  "heroGenerated": true,
   "readingTime": 12,
   "keyTakeaways": [
     "Des panneaux fixés au bâti sont généralement inclus dans la vente, à condition que le vendeur en soit réellement propriétaire.",

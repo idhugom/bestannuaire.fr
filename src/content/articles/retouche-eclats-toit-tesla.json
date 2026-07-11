@@ -14,10 +14,10 @@
   ],
   "chapo": "Un impact minuscule au sommet d’une Tesla ne se traite pas toujours comme une rayure de carrosserie : la zone peut être peinte, en plastique ou vitrée. Un stylo de retouche est utile sur un éclat localisé de peinture, à condition d’identifier le support, la teinte et la gravité du dommage avant d’agir.",
   "metaDescription": "Stylo retouche Tesla : comment réparer un éclat de peinture sur le toit, choisir la teinte juste et éviter les erreurs, même si le toit est vitré ou peint.",
-  "heroImage": null,
-  "heroImageSm": null,
+  "heroImage": "/img/heroes/retouche-eclats-toit-tesla.webp",
+  "heroImageSm": "/img/heroes/retouche-eclats-toit-tesla-sm.webp",
   "heroAlt": "Stylo retouche Tesla pour éclats sur toit : éliminez les éclats sur le toit de votre Tesla",
-  "heroGenerated": false,
+  "heroGenerated": true,
   "readingTime": 11,
   "keyTakeaways": [
     "Un stylo de retouche ne convient qu’à une zone peinte : il ne répare ni le verre du toit ni une fissure.",

@@ -14,10 +14,10 @@
   ],
   "chapo": "À Oman, une chambre tournée vers l’eau peut ouvrir sur une baie rocheuse, une longue plage urbaine ou les horizons plus sauvages du sud. Le panorama ne suffit pourtant pas à réussir le voyage : côte, saison, type de chambre et règles locales déterminent vraiment l’expérience.",
   "metaDescription": "Séjour avec vue sur mer à Oman : choisissez la bonne côte, la chambre et la saison, avec nos conseils pour réserver, se baigner et explorer sereinement.",
-  "heroImage": null,
-  "heroImageSm": null,
+  "heroImage": "/img/heroes/sejour-vue-mer-oman.webp",
+  "heroImageSm": "/img/heroes/sejour-vue-mer-oman-sm.webp",
   "heroAlt": "Séjour avec vue sur mer à Oman : profitez d’une vue imprenable sur l’océan depuis votre chambre",
-  "heroGenerated": false,
+  "heroGenerated": true,
   "readingTime": 11,
   "keyTakeaways": [
     "Une « vue mer » peut être latérale ou partiellement masquée : vérifiez la catégorie exacte de chambre.",

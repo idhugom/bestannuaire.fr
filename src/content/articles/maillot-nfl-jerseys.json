@@ -14,10 +14,10 @@
   ],
   "chapo": "Entre coupe de supporter, pièce collector et cadeau personnalisé, un jersey NFL ne s’achète pas à l’aveugle. Licences, niveaux de finition, tailles américaines, frais d’importation et droit de retour modifient fortement l’expérience. Voici une méthode claire pour acheter juste, porter longtemps et éviter les contrefaçons.",
   "metaDescription": "Maillot NFL : choisir un jersey officiel, vérifier son authenticité, trouver sa taille et éviter les pièges d’achat en France et en Europe, pour supporter.",
-  "heroImage": null,
-  "heroImageSm": null,
+  "heroImage": "/img/heroes/maillot-nfl-jerseys.webp",
+  "heroImageSm": "/img/heroes/maillot-nfl-jerseys-sm.webp",
   "heroAlt": "Maillot football américain NFL : les jerseys officiels des plus grandes équipes",
-  "heroGenerated": false,
+  "heroGenerated": true,
   "readingTime": 10,
   "keyTakeaways": [
     "Un jersey « officiel » est un produit sous licence : cela ne signifie pas qu’il a été porté en match.",

@@ -13,10 +13,10 @@
   ],
   "chapo": "Une estimation en ligne aide à budgéter l’assurance construction, mais elle ne remplace pas la lecture attentive d’un contrat. Activités réellement exercées, chiffre d’affaires, techniques employées et antécédents déterminent autant le prix que l’étendue effective de la protection. Voici une méthode pour comparer utilement les propositions.",
   "metaDescription": "Simulation tarif garantie décennale : critères de prix, données à renseigner, comparaison des devis et pièges à éviter pour assurer vos chantiers sereinement.",
-  "heroImage": null,
-  "heroImageSm": null,
+  "heroImage": "/img/heroes/simulation-tarif-garantie-decennale.webp",
+  "heroImageSm": "/img/heroes/simulation-tarif-garantie-decennale-sm.webp",
   "heroAlt": "Garantie décennale simulation tarif : comment estimer le coût de sa garantie en quelques clics ?",
-  "heroGenerated": false,
+  "heroGenerated": true,
   "readingTime": 11,
   "keyTakeaways": [
     "Une simulation donne une fourchette : seul un devis assorti de ses conditions contractuelles engage l’assureur.",

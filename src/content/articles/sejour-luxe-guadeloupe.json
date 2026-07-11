@@ -14,10 +14,10 @@
   ],
   "chapo": "Un séjour haut de gamme en Guadeloupe se construit bien au-delà du choix d’une belle chambre : il repose sur le bon rythme, la bonne île et des prestations réellement adaptées à vos envies. Hébergement, transferts, navigation, gastronomie, météo et budget : voici les repères pour organiser une expérience aussi confortable qu’authentique.",
   "metaDescription": "Séjour de luxe en Guadeloupe : villa ou hôtel, îles à choisir, activités privées, budget, météo et précautions pour un voyage haut de gamme réussi et serein.",
-  "heroImage": null,
-  "heroImageSm": null,
+  "heroImage": "/img/heroes/sejour-luxe-guadeloupe.webp",
+  "heroImageSm": "/img/heroes/sejour-luxe-guadeloupe-sm.webp",
   "heroAlt": "Séjour de luxe aux îles de la Guadeloupe : des vacances haut de gamme dans un cadre paradisiaque",
-  "heroGenerated": false,
+  "heroGenerated": true,
   "readingTime": 11,
   "keyTakeaways": [
     "Choisissez votre île selon le rythme recherché : plages animées, nature tropicale, intimité ou escapade insulaire.",

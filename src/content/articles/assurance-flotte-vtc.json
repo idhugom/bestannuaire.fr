@@ -14,10 +14,10 @@
   ],
   "chapo": "Dès lors que plusieurs véhicules et conducteurs sont mobilisés, l’assurance ne se résume plus à une addition de contrats auto. Une formule flotte VTC peut simplifier la gestion et mieux couvrir l’activité de transport rémunéré, à condition d’identifier précisément les usages, les statuts des chauffeurs et les coûts qui restent à votre charge après un sinistre.",
   "metaDescription": "Assurance flotte automobile VTC : garanties, obligations, tarification et critères pour protéger vos véhicules, chauffeurs, passagers et activité sans surprise.",
-  "heroImage": null,
-  "heroImageSm": null,
+  "heroImage": "/img/heroes/assurance-flotte-vtc.webp",
+  "heroImageSm": "/img/heroes/assurance-flotte-vtc-sm.webp",
   "heroAlt": "Assurance flotte automobile pour VTC : quelles formules dédiées aux chauffeurs VTC en flotte ?",
-  "heroGenerated": false,
+  "heroGenerated": true,
   "readingTime": 12,
   "keyTakeaways": [
     "La garantie doit mentionner l’usage professionnel de transport de personnes à titre onéreux, et non un simple usage professionnel.",
