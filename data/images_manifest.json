@@ -5056,5 +5056,11 @@
     "hero": "/img/heroes/net2one-fr.webp",
     "sm": "/img/heroes/net2one-fr-sm.webp",
     "alt": ""
+  },
+  "julien-jimenez-consultant-google-ads-freelance": {
+    "status": "generated",
+    "hero": "/img/heroes/julien-jimenez-consultant-google-ads-freelance.webp",
+    "sm": "/img/heroes/julien-jimenez-consultant-google-ads-freelance-sm.webp",
+    "alt": ""
   }
 }
