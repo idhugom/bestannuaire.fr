@@ -5116,5 +5116,17 @@
     "hero": "/img/heroes/pourquoi-bebe-refuse-t-il-soudainement-le-biberon-apres-avoir-ete-allaite.webp",
     "sm": "/img/heroes/pourquoi-bebe-refuse-t-il-soudainement-le-biberon-apres-avoir-ete-allaite-sm.webp",
     "alt": ""
+  },
+  "pourquoi-ma-chaudiere-fait-elle-sauter-le-disjoncteur": {
+    "status": "generated",
+    "hero": "/img/heroes/pourquoi-ma-chaudiere-fait-elle-sauter-le-disjoncteur.webp",
+    "sm": "/img/heroes/pourquoi-ma-chaudiere-fait-elle-sauter-le-disjoncteur-sm.webp",
+    "alt": ""
+  },
+  "colis-livre-par-erreur-chez-vous-quels-sont-vos-droits": {
+    "status": "generated",
+    "hero": "/img/heroes/colis-livre-par-erreur-chez-vous-quels-sont-vos-droits.webp",
+    "sm": "/img/heroes/colis-livre-par-erreur-chez-vous-quels-sont-vos-droits-sm.webp",
+    "alt": ""
   }
 }
