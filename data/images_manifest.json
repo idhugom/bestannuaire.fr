@@ -5128,5 +5128,17 @@
     "hero": "/img/heroes/colis-livre-par-erreur-chez-vous-quels-sont-vos-droits.webp",
     "sm": "/img/heroes/colis-livre-par-erreur-chez-vous-quels-sont-vos-droits-sm.webp",
     "alt": ""
+  },
+  "tache-de-vin-rouge-seche-canape-tissu-comment-enlever": {
+    "status": "generated",
+    "hero": "/img/heroes/tache-de-vin-rouge-seche-canape-tissu-comment-enlever.webp",
+    "sm": "/img/heroes/tache-de-vin-rouge-seche-canape-tissu-comment-enlever-sm.webp",
+    "alt": ""
+  },
+  "valise-cabine-taille-easyjet-ryanair-air-france": {
+    "status": "generated",
+    "hero": "/img/heroes/valise-cabine-taille-easyjet-ryanair-air-france.webp",
+    "sm": "/img/heroes/valise-cabine-taille-easyjet-ryanair-air-france-sm.webp",
+    "alt": ""
   }
 }
