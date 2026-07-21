@@ -5140,5 +5140,17 @@
     "hero": "/img/heroes/que-faire-si-le-code-pin-de-sa-carte-sim-est-bloque.webp",
     "sm": "/img/heroes/que-faire-si-le-code-pin-de-sa-carte-sim-est-bloque-sm.webp",
     "alt": ""
+  },
+  "pourquoi-le-clignotant-de-ma-voiture-clignote-t-il-plus-vite-que-dhabitude": {
+    "status": "generated",
+    "hero": "/img/heroes/pourquoi-le-clignotant-de-ma-voiture-clignote-t-il-plus-vite-que-dhabitude.webp",
+    "sm": "/img/heroes/pourquoi-le-clignotant-de-ma-voiture-clignote-t-il-plus-vite-que-dhabitude-sm.webp",
+    "alt": ""
+  },
+  "pourquoi-mes-verres-ressortent-ils-troubles-et-blanchis-du-lave-vaisselle": {
+    "status": "generated",
+    "hero": "/img/heroes/pourquoi-mes-verres-ressortent-ils-troubles-et-blanchis-du-lave-vaisselle.webp",
+    "sm": "/img/heroes/pourquoi-mes-verres-ressortent-ils-troubles-et-blanchis-du-lave-vaisselle-sm.webp",
+    "alt": ""
   }
 }
