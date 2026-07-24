@@ -5152,5 +5152,17 @@
     "hero": "/img/heroes/que-faire-si-vous-etes-preleve-deux-fois-par-le-meme-commercant.webp",
     "sm": "/img/heroes/que-faire-si-vous-etes-preleve-deux-fois-par-le-meme-commercant-sm.webp",
     "alt": ""
+  },
+  "que-faire-si-une-prise-electrique-chauffe-anormalement": {
+    "status": "generated",
+    "hero": "/img/heroes/que-faire-si-une-prise-electrique-chauffe-anormalement.webp",
+    "sm": "/img/heroes/que-faire-si-une-prise-electrique-chauffe-anormalement-sm.webp",
+    "alt": ""
+  },
+  "le-plafond-du-livret-a-est-atteint-que-faire-de-son-epargne": {
+    "status": "generated",
+    "hero": "/img/heroes/le-plafond-du-livret-a-est-atteint-que-faire-de-son-epargne.webp",
+    "sm": "/img/heroes/le-plafond-du-livret-a-est-atteint-que-faire-de-son-epargne-sm.webp",
+    "alt": ""
   }
 }
